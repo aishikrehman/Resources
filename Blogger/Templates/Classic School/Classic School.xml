@@ -1,1547 +1,1452 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:templateVersion='1.0.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-
+<html
+  b:css="false"
+  b:defaultwidgetversion="2"
+  b:layoutsVersion="3"
+  b:templateVersion="1.0.0"
+  expr:class="data:blog.languageDirection"
+  expr:dir="data:blog.languageDirection"
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:b="http://www.google.com/2005/gml/b"
+  xmlns:data="http://www.google.com/2005/gml/data"
+  xmlns:expr="http://www.google.com/2005/gml/expr"
+>
   <head>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css' rel='stylesheet'/>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' rel='stylesheet'/>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js'/>
-      <b:skin><![CDATA[
-            body {
-                width: 100%;
-                font-family: SolaimanLipiNormal;
-                background: url(http://themesbazar.com/educational/wp-content/themes/educationaltheme/images/bg_body.gif) no-repeat top center;
-                font-size: 17px
-            }
-
-            .main_website {
-                background: #ffffff;
-                border-radius: 2px;
-            }
-
-            .scrool_1 {
-                padding: 5px;
-                background: #138FDE;
-                background: -webkit-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -o-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: linear-gradient(-90deg, #138FDE, #003CA9);
-                color: #fff;
-                font-size: 17px;
-                text-align: left;
-                padding-left: 10px;
-            }
-
-            .catagory_title {
-                padding: 7px;
-                color: #fff;
-                margin-bottom: 10px!important;
-                font-size: 18px;
-                font-weight: 400;
-                margin: 0;
-                overflow: hidden;
-                background: #138FDE;
-                background: -webkit-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -o-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: linear-gradient(-90deg, #138FDE, #003CA9);
-            }
-
-            .catagory_title_5 {
-                padding: 7px;
-                margin-top: 5px!important;
-                color: #fff;
-                font-size: 18px;
-                font-weight: 400;
-                margin: 0;
-                overflow: hidden;
-                background: #138FDE;
-                background: -webkit-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -o-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: linear-gradient(-90deg, #138FDE, #003CA9);
-            }
-
-            .social-link ul li a i {
-                color: #fff;
-                font-size: 16px;
-                font-weight: 300;
-                -moz-border-radius: 50%;
-                -webkit-border-radius: 50%;
-                border-radius: 50%;
-                text-align: center;
-                width: 33px;
-                height: 33px;
-                line-height: 33px;
-                background: #3987E6;
-            }
-
-            .section_2 {
-                background: #0082CF;
-                padding: 10px;
-            }
-
-            .root {
-                padding: 10px;
-            }
-
-            .root_01 {
-                color: #fff;
-                font-size: 16px;
-            }
-
-            .root_02 {
-                text-align: right;
-                color: #fff;
-                font-size: 17px;
-            }
-
-            .root_02 a {
-                color: #000;
-                font-weight: 800;
-                text-decoration: none;
-            }
-
-            .root_02 a:hover {
-                color: #fff;
-            }
-
-            .facebook_title {
-                background: #138FDE;
-                background: -webkit-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -o-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: linear-gradient(-90deg, #138FDE, #003CA9);
-                padding: 10px;
-                margin-bottom: 5px;
-            }
-
-            .fb-root {
-                margin-bottom: 5px;
-            }
-
-            .facebook_title a {
-                color: #fff;
-                font-size: 16px;
-            }
-
-            .contact_us_hadding {
-                color: #fff;
-                font-size: 20px;
-                font-weight: ;
-                text-decoration: none;
-                padding: 7px;
-                background: #138FDE;
-                background: -webkit-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -o-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: linear-gradient(-90deg, #138FDE, #003CA9);
-            }
-
-            /*Widget Title=========*/
-            .widget_area {
-                margin: 5px 0px 5px 0px;
-            }
-
-            .widget_area li {
-                margin: 2px 0px 5px 0px;
-            }
-
-            .widget_area h3 {
-                padding: 7px;
-                color: #fff;
-                margin-bottom: 10px!important;
-                font-size: 16px;
-                text-align: left;
-                margin: 0;
-                overflow: hidden;
-                background: #138FDE;
-                background: -webkit-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -o-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
-                background: linear-gradient(-90deg, #138FDE, #003CA9);
-            }
-
-            #bs-example-navbar-collapse-1 {
-                background-color: #013C57;
-                font-size: 16px;
-            }
-
-            #nav .navbar-default .navbar-nav > li > a {
-                color: #FFFFFF;
-                padding: 7px 20px 7px 20px;
-            }
-
-            .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-                color: #fff !important;
-                margin: 0px;
-                background-color: #74010D;
-            }
-
-            #nav .navbar-collapse {
-                padding: 0px;
-                border-bottom : 2px solid #74010D;
-            }
-
-            /* Goto Top============================ */
-            #myBtn {
-                display: none;
-                /* Hidden by default */
-                position: fixed;
-                /* Fixed/sticky position */
-                bottom: 20px;
-                /* Place the button at the bottom of the page */
-                right: 30px;
-                /* Place the button 30px from the right */
-                z-index: 99;
-                /* Make sure it does not overlap */
-                border: none;
-                /* Remove borders */
-                outline: none;
-                /* Remove outline */
-                background-color: #013C57;
-                /* Set a background color */
-                color: #fff;
-                /* Text color */
-                cursor: pointer;
-                /* Add a mouse pointer on hover */
-                padding: 15px;
-                /* Some padding */
-                border-radius: 10px;
-                /* Rounded corners */
-            }
-
-            #myBtn:hover {
-                background-color: #013C57;
-                /* Add a dark-grey background on hover */
-                opacity: 0.5;
-            }
-.alignleft {
-    float: left;
-    margin-right: 15px;
-}
-.alignright {
-    float: right;
-    margin-left: 15px;
-}
-.aligncenter {
-    display: block;
-    margin: 0 auto 15px;
-}
-a:focus { outline: 0 solid }
-img {
-    max-width: 100%;
-    height: auto;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 15px;
-    font-weight: 700;
-}
-html,
-
-
-a:hover { text-decoration: none }
-
-/* Remove Chrome Input Field's Unwanted Yellow Background Color */
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
-
-
-
-/*=================================================
-					header start						
-==================================================*/
-
-.logo img{
-	width:100%;
-	height:auto;
-}
-
-.card {
-    box-shadow: 3px 3px 3px 7px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
-
-.card:hover {
-    box-shadow:  3px 3px 3px 7px rgba(0,0,0,0.1);
-}
-
-.slider  {
-	border:1px solid#fff!important;
-	padding:2px;
-	background:#808080!important;
-}
-.slider img {
-	width:100%;
-	height:auto;
-}
-.photo-caption{
-	font-size:20px;
-	line-height:auto;
-	font-weight:400;
-	padding:10px 10px 10px 10px;
-	opacity:0.6;
-	background:#E8E8FF
-}
-.photo-caption a{
-	color:#000;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	background : black;
-	padding: 10px;
-	border-radius : 5px;
-	opacity:0.5;
-	text-align:center
-}
-.centered a{
-	color : white
-}
-
-.scrool{
-	margin-bottom:10px;
-	margin-top:10px;
-}
-
-.scrool_2{
-	padding:6px!important;
-	background:#EDEDED!important;
-	font-size:16px!important;
-}
-.scrool_2 a{
-	color:#1A57B7;
-	font-size:15px;
-}
-
-.History img {
-	width:40%;
-	height:auto;
-	margin-right:10px;
-	float:left;
-}
-.History p {
-	font-size:18px;
-	line-height:auto;
-	color:#000;
-	text-align:justify;
-}
-.profile img {
-	width:40%;
-	height:auto;
-	margin-right:10px;
-	float:left;
-}
-.profile p {
-	font-size:16px;
-	line-height:auto;
-	color:#000;
-	text-align:justify;
-}
-
-
-.catagory_title_1{
-    padding: 6px;
-	color:#fff;
-	font-size:20px;
-	font-weight:400;
-	margin:0;
-	overflow:hidden;
-	background: #DB526A;
-    background: -webkit-linear-gradient(-90deg, #DB526A, #A53146);
-    background: -o-linear-gradient(-90deg, #DB526A, #A53146);
-    background: -moz-linear-gradient(-90deg, #DB526A, #A53146);
-    background: linear-gradient(-90deg, #DB526A, #A53146);
-}
-.catagory_title_2{
-    padding: 6px;
-	color:#fff;
-	font-size:20px;
-	font-weight:400;
-	margin:0;
-	overflow:hidden;
-	background: #39D088;
-    background: -webkit-linear-gradient(-90deg, #39D088, #06874A);
-    background: -o-linear-gradient(-90deg, #39D088, #06874A);
-    background: -moz-linear-gradient(-90deg, #39D088, #06874A);
-    background: linear-gradient(-90deg, #39D088, #06874A);
-}
-.catagory_title_3{
-    padding: 6px;
-	color:#fff;
-	font-size:20px;
-	font-weight:400;
-	margin:0;
-	overflow:hidden;
-	background: #D8931E;
-    background: -webkit-linear-gradient(-90deg, #D8931E, #965D03);
-    background: -o-linear-gradient(-90deg, #D8931E, #965D03);
-    background: -moz-linear-gradient(-90deg, #D8931E, #965D03);
-    background: linear-gradient(-90deg, #D8931E, #965D03);
-}
-.catagory_title_4{
-    padding: 6px;
-	color:#fff;
-	font-size:20px;
-	font-weight:400;
-	margin:0;
-	overflow:hidden;
-	background: #4DA9E4;
-    background: -webkit-linear-gradient(-90deg, #4DA9E4, #1C76B1);
-    background: -o-linear-gradient(-90deg, #4DA9E4, #1C76B1);
-    background: -moz-linear-gradient(-90deg, #4DA9E4, #1C76B1);
-    background: linear-gradient(-90deg, #4DA9E4, #1C76B1);
-}
-
-.add {
-	margin-top:10px;
-	margin-bottom:5px;
-}
-.add img{
-	width:100%;
-	height:auto;
-}
-.news_information img{
-	width:35%;
-	float:left;
-	margin-right:10px;
-	padding:30px;
-	}
-.news_information{
-	width:100%;
-	border:1px solid#808080;
-	background:#ECECEC;
-	float:left;	
-	padding-bottom:30px;
-	overflow:hidden;
-	margin-bottom:20px;
-	}
-.news_information ul{
-	margin-top:30px;
-	}
-.news_information ul li{
-	list-style:none;
-	}
-.news_information ul li a{
-	font-size:14px;
-	color:#3e3d3c;
-	line-height:auto;
-	padding-left:18px;
-	}
-.news_information ul li a:hover{
-	text-decoration:none;
-	color:#066ab0;
-	}
-.news_information li:before {
-  content: "\f00c"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1.0em; /* same as padding-left set on li */
-  width: 0.3em; /* same as padding-left set on li */
-}
-
-.academy_information i {
-	color:#fff;
-	font-size:16px;
-	padding-top:3px;
-	padding-left:15px;
-}
-.academy_information a {
-	color:#fff;
-	font-size:16px;
-	padding-left:10px;
-	text-decoration:none;
-	text-align:center!important;
-}
-.academy_information {
-	overflow:hidden;
-	width:100%;
-	}
-.academy_information ul li{
-	list-style:none;
-	margin-left:-50px !important;
-	}
-
-.academy_information li{
-	margin-bottom:6px;
-	padding:7px;
-	background: #DE182C;
-    background: -webkit-linear-gradient(-90deg, #DE182C, #C71528);
-    background: -o-linear-gradient(-90deg, #DE182C, #C71528);
-    background: -moz-linear-gradient(-90deg, #DE182C, #C71528);
-    background: linear-gradient(-90deg, #DE182C, #C71528);
-	
-}
-.academy_information li:hover{
-	margin-bottom:6px;
-	padding:7px;
-	background: #E58A47;
-    background: -webkit-linear-gradient(-90deg, #E58A47, #A64B08);
-    background: -o-linear-gradient(-90deg, #E58A47, #A64B08);
-    background: -moz-linear-gradient(-90deg, #E58A47, #A64B08);
-    background: linear-gradient(-90deg, #E58A47, #A64B08);
-	
-}
-
-.academy_information li:before {
-  content: "\f18e"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: 1.0em; /* same as padding-left set on li */
-  width: 1.3em; /* same as padding-left set on li */
-  color:white;
-}
-	
-.notice_box{
-	width:100%;
-	overflow:hidden;
-	background:#ebebeb;
-	padding-bottom:10px;
-	padding-right:5px;
-	margin-bottom:10px;
-	}
-.notice_box ul{
-	overflow:hidden;
-	margin-top:10px;
-	}
-.notice_box ul li{
-	padding-top:8px!important;
-	padding-bottom:8px!important;
-	list-style:none;
-	}
-.notice_box ul li i{
-	font-size:13px;
-	margin-left:-25px;
-	margin-right:5px;
-	}
-.notice_box ul li a{
-	font-size:15px;
-	color:#3e3d3c;
-	line-height:auto;
-	}
-.notice_box ul li a:hover{
-	text-decoration:none;
-	color:#066ab0;
-	}
-
-.notice_box li:before {
-  content: "\f18e"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1.0em; /* same as padding-left set on li */
-  width: 1.3em; /* same as padding-left set on li */
-}								/******************* bootom_footer start*****************/
-
-
-.social-link{
-	overflow:hidden;	
-}
-.social-link ul {
-	text-align: center;
-	padding:0 !important;
-	margin:0 !important;
-	
-}
-.social-link ul li {
-	display: inline;
-	list-style: none;
-	padding: 0 5px;
-}
-.social-link ul li a:hover i {
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	transform: rotate(360deg);
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-
-.social-link ul li a i {
-	color: #fff;
-	-webkit-transition: all 0.8s;
-	-moz-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	-ms-transition: all 0.8s;
-	transition: all 0.8s;
-}
-
-
-/******************* contact us css start *****************/
-.contuct_box{
-	margin-bottom:30px;
-	margin-top:20px;
-}
-
-.contact_us_text p{
-	font-weight:400;
-	font-size:20px;
-	color:#3C3C3C;
-	text-decoration:none;
-	text-align:justify;
-}
-
-.form_box{
-	padding-right:20px;
-}
-.form_box button{
-	margin-left:10px;
-	margin-top:10px;
-	width:30%;
-	overflow:hidden;
-}
-.form-group {
-    width: 100%;
-    position: relative;
-    left: 10px;
-    line-height: 22px;
-	float:center;
-	 	
-}
-.form-group:hover input {
-	width: 100%;
-	border:2px solid#FE2E2B;
-}
-.sub-group {
-    width: 100%;
-    position: relative;
-    left: 10px;
-    line-height: 22px;
-	float:center;
-	margin-top:15px;
-	 	
-}
-.sub-group:hover input {
-    width: 100%;
-	border:2px solid#FE2E2B;
-}
-.Chat-group {
-    width: 100%;
-    position: relative;
-    left: 10px;
-    line-height: 22px;
-	float:center;
-	margin-top:15px;
-	 	
-}
-.sub-group:hover textarea {
-    width: 100%;
-	border:2px solid#FE2E2B;
-}
-
-
-
-/*============================================
-		employee_imformation css start
-== =========================================*/
-
-.employee_box{
-	margin-bottom:5px !important;
-	margin-top:5px!important;
-	overflow:hidden;
-}
-
-.image_title img{
-	width:100%;
-	height:auto;
-	border:1px solid#E7E5E5!important;
-	padding:2px;
-	background:#fff!important;
-}
-.employee_imformation{
-	background:#E8E8FF;
-	padding:8px 12px 12px 12px;
-	text-align:center;
-}
-.employee_imformation a{
-	font-size:16px;
-	color:#000;
-	font-weight:400;
-	text-decoration:none;
-}
-.employee_imformation a:hover{
-	color:#FF0000;
-}
-.service-img {
-	position: relative;
-	overflow: hidden
-}
-.service-img img {
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.6s ease;
-	width:100%;
-	height:auto;
-	
-}
-.service-img img:hover {
-	position: relative;
-	z-index: 20;
-	-webkit-transform: scale(1.1111);
-	transform: scale(1.1111);
-}
-
-/*============================================
-		photogallary Page css start
-============================================*/
-.photogallary{
-	margin-bottom:5px !important;
-	margin-top:5px!important;
-	overflow:hidden;
-}
-.gallary img{
-	width:100%;
-	height:auto;
-	border:1px solid#E7E5E5!important;
-	padding:2px;
-	background:#fff!important;
-}
-.photo_title a{
-	color:#000;
-}
-.photo_title a:hover{
-	color:#23529C;
-}
-.photo_title {
-	background:#E8E8FF;
-	padding:8px 12px 12px 12px;
-	text-align:center;
-}
-
-
-/*============================================
-		single_page css start
-============================================*/
-.single_page{
-	margin-bottom:10px !important;
-	margin-top:10px!important;
-	overflow:hidden;
-}
-.page_hadding{
-	font-size:22px;
-	line-height:auto;
-	color:#020F74;
-	border-bottom:1px solid#B9B9B9;
-	border-top:1px solid#B9B9B9;
-	padding-bottom:10px;
-	padding-top:10px;
-	text-align:center;
-}
-.page_dtails {
-	padding:20px 0px 30px 0px;;
-}
-
-.page_dtails p{
-	color:#000;
-	text-align:justify;
-}
-
-.page_dtails iframe {
-	width:100%; height:350px;
-}
-
-
-
-/*============================================
-		Photo Gallery single_page css start
-============================================*/
-.psingle_page{
-	margin-bottom:10px !important;
-	margin-top:10px!important;
-	overflow:hidden;
-}
-.psingle_page img{
-	width:100%;
-	height:auto;
-}
-.ppage_hadding{
-	font-size:22px;
-	line-height:auto;
-	color:#020F74;
-	border-bottom:1px solid#B9B9B9;
-	border-top:1px solid#B9B9B9;
-	padding-bottom:10px;
-	padding-top:10px;
-	text-align:center;
-}
-
-
-/*============================================
-		blog_page css start
-============================================*/
-.card_1 {
-    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
-    transition: 0.1s;
-}
-
-.card_1:hover {
-    box-shadow:  3px 3px 3px 3px rgba(0,0,0,0.1);
-}
-.blog_page{
-	margin-bottom:10px !important;
-	margin-top:10px!important;
-	overflow:hidden;
-	padding:20px 0px 20px 0px;
-}
-.blog_hadding a{
-	font-size:21px;
-	line-height:auto;
-	color:#020F74;
-	text-decoration:none;
-	margin-bottom:8px;
-}
-.blog_hadding a:hover{
-	color:#7A0335;
-}
-.blog_dtails {
-	overflow:hidden;
-	padding:15px;
-	border-bottom:3px solid#ABA9A9;
-	border-left:5px solid#353A60;
-	margin-bottom:20px;
-}
-.blog_dtails img{
-	width:20%;
-	height:auto;
-	float:left;
-	padding:15px 8px 15px 8px;
-	margin-right:10px;
-	border:1px solid#E7E5E5!important;
-	padding:2px;
-	background:#fff!important;
-	overflow:hidden;
-}
-.blog_dtails p{
-	font-size:15px;
-	color:#000;
-	overflow:hidden;
-	text-align:justify;
-}
-
-/*============================================
-		download_page css start
-============================================*/
-
-.download_page{
-	margin-bottom:10px !important;
-	margin-top:10px!important;
-	overflow:hidden;
-	padding:30px;
-}
-.download_hadding span{
-	font-size:20px;
-	color:#fff;
-	background:#072C01;
-	padding:10px 12px 13px 12px;
-}
-.download_hadding a{
-	font-size:20px;
-	text-decoration:none;
-	color:#000;
-	background:#E2E4E2;
-	padding:8px 8px 8px 8px;
-}
-.download_dtails {
-	overflow:hidden;
-	margin-top:10px;
-	margin-bottom:20px;
-}
-
-/* facebook title ========================= */
-
-.fb-root{
-	margin-bottom:5px;
-}
-.facebook_title a{
-	color:#fff;
-	
-} 
-
-
-      ]]></b:skin>
-    <b:if cond='data:view.isLayoutMode'>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js" />
+    <b:skin
+      ><![CDATA[ body { width: 100%; font-family: SolaimanLipiNormal;
+      background:
+      url(http://themesbazar.com/educational/wp-content/themes/educationaltheme/images/bg_body.gif)
+      no-repeat top center; font-size: 17px } .main_website { background:
+      #ffffff; border-radius: 2px; } .scrool_1 { padding: 5px; background:
+      #138FDE; background: -webkit-linear-gradient(-90deg, #138FDE, #003CA9);
+      background: -o-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      -moz-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      linear-gradient(-90deg, #138FDE, #003CA9); color: #fff; font-size: 17px;
+      text-align: left; padding-left: 10px; } .catagory_title { padding: 7px;
+      color: #fff; margin-bottom: 10px!important; font-size: 18px; font-weight:
+      400; margin: 0; overflow: hidden; background: #138FDE; background:
+      -webkit-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      -o-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      -moz-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      linear-gradient(-90deg, #138FDE, #003CA9); } .catagory_title_5 { padding:
+      7px; margin-top: 5px!important; color: #fff; font-size: 18px; font-weight:
+      400; margin: 0; overflow: hidden; background: #138FDE; background:
+      -webkit-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      -o-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      -moz-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      linear-gradient(-90deg, #138FDE, #003CA9); } .social-link ul li a i {
+      color: #fff; font-size: 16px; font-weight: 300; -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; border-radius: 50%; text-align: center; width:
+      33px; height: 33px; line-height: 33px; background: #3987E6; } .section_2 {
+      background: #0082CF; padding: 10px; } .root { padding: 10px; } .root_01 {
+      color: #fff; font-size: 16px; } .root_02 { text-align: right; color: #fff;
+      font-size: 17px; } .root_02 a { color: #000; font-weight: 800;
+      text-decoration: none; } .root_02 a:hover { color: #fff; } .facebook_title
+      { background: #138FDE; background: -webkit-linear-gradient(-90deg,
+      #138FDE, #003CA9); background: -o-linear-gradient(-90deg, #138FDE,
+      #003CA9); background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
+      background: linear-gradient(-90deg, #138FDE, #003CA9); padding: 10px;
+      margin-bottom: 5px; } .fb-root { margin-bottom: 5px; } .facebook_title a {
+      color: #fff; font-size: 16px; } .contact_us_hadding { color: #fff;
+      font-size: 20px; font-weight: ; text-decoration: none; padding: 7px;
+      background: #138FDE; background: -webkit-linear-gradient(-90deg, #138FDE,
+      #003CA9); background: -o-linear-gradient(-90deg, #138FDE, #003CA9);
+      background: -moz-linear-gradient(-90deg, #138FDE, #003CA9); background:
+      linear-gradient(-90deg, #138FDE, #003CA9); } /*Widget Title=========*/
+      .widget_area { margin: 5px 0px 5px 0px; } .widget_area li { margin: 2px
+      0px 5px 0px; } .widget_area h3 { padding: 7px; color: #fff; margin-bottom:
+      10px!important; font-size: 16px; text-align: left; margin: 0; overflow:
+      hidden; background: #138FDE; background: -webkit-linear-gradient(-90deg,
+      #138FDE, #003CA9); background: -o-linear-gradient(-90deg, #138FDE,
+      #003CA9); background: -moz-linear-gradient(-90deg, #138FDE, #003CA9);
+      background: linear-gradient(-90deg, #138FDE, #003CA9); }
+      #bs-example-navbar-collapse-1 { background-color: #013C57; font-size:
+      16px; } #nav .navbar-default .navbar-nav > li > a { color: #FFFFFF;
+      padding: 7px 20px 7px 20px; } .navbar-default .navbar-nav > .active > a,
+      .navbar-default .navbar-nav > .active > a:hover, .navbar-default
+      .navbar-nav > .active > a:focus { color: #fff !important; margin: 0px;
+      background-color: #74010D; } #nav .navbar-collapse { padding: 0px;
+      border-bottom : 2px solid #74010D; } /* Goto
+      Top============================ */ #myBtn { display: none; /* Hidden by
+      default */ position: fixed; /* Fixed/sticky position */ bottom: 20px; /*
+      Place the button at the bottom of the page */ right: 30px; /* Place the
+      button 30px from the right */ z-index: 99; /* Make sure it does not
+      overlap */ border: none; /* Remove borders */ outline: none; /* Remove
+      outline */ background-color: #013C57; /* Set a background color */ color:
+      #fff; /* Text color */ cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */ border-radius: 10px; /* Rounded corners
+      */ } #myBtn:hover { background-color: #013C57; /* Add a dark-grey
+      background on hover */ opacity: 0.5; } .alignleft { float: left;
+      margin-right: 15px; } .alignright { float: right; margin-left: 15px; }
+      .aligncenter { display: block; margin: 0 auto 15px; } a:focus { outline: 0
+      solid } img { max-width: 100%; height: auto; } h1, h2, h3, h4, h5, h6 {
+      margin: 0 0 15px; font-weight: 700; } html, a:hover { text-decoration:
+      none } /* Remove Chrome Input Field's Unwanted Yellow Background Color */
+      input:-webkit-autofill, input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus { -webkit-box-shadow: 0 0 0px 1000px white
+      inset !important; } /*=================================================
+      header start ==================================================*/ .logo
+      img{ width:100%; height:auto; } .card { box-shadow: 3px 3px 3px 7px
+      rgba(0,0,0,0.1); transition: 0.3s; } .card:hover { box-shadow: 3px 3px 3px
+      7px rgba(0,0,0,0.1); } .slider { border:1px solid#fff!important;
+      padding:2px; background:#808080!important; } .slider img { width:100%;
+      height:auto; } .photo-caption{ font-size:20px; line-height:auto;
+      font-weight:400; padding:10px 10px 10px 10px; opacity:0.6;
+      background:#E8E8FF } .photo-caption a{ color:#000; } .centered { position:
+      absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      background : black; padding: 10px; border-radius : 5px; opacity:0.5;
+      text-align:center } .centered a{ color : white } .scrool{
+      margin-bottom:10px; margin-top:10px; } .scrool_2{ padding:6px!important;
+      background:#EDEDED!important; font-size:16px!important; } .scrool_2 a{
+      color:#1A57B7; font-size:15px; } .History img { width:40%; height:auto;
+      margin-right:10px; float:left; } .History p { font-size:18px;
+      line-height:auto; color:#000; text-align:justify; } .profile img {
+      width:40%; height:auto; margin-right:10px; float:left; } .profile p {
+      font-size:16px; line-height:auto; color:#000; text-align:justify; }
+      .catagory_title_1{ padding: 6px; color:#fff; font-size:20px;
+      font-weight:400; margin:0; overflow:hidden; background: #DB526A;
+      background: -webkit-linear-gradient(-90deg, #DB526A, #A53146); background:
+      -o-linear-gradient(-90deg, #DB526A, #A53146); background:
+      -moz-linear-gradient(-90deg, #DB526A, #A53146); background:
+      linear-gradient(-90deg, #DB526A, #A53146); } .catagory_title_2{ padding:
+      6px; color:#fff; font-size:20px; font-weight:400; margin:0;
+      overflow:hidden; background: #39D088; background:
+      -webkit-linear-gradient(-90deg, #39D088, #06874A); background:
+      -o-linear-gradient(-90deg, #39D088, #06874A); background:
+      -moz-linear-gradient(-90deg, #39D088, #06874A); background:
+      linear-gradient(-90deg, #39D088, #06874A); } .catagory_title_3{ padding:
+      6px; color:#fff; font-size:20px; font-weight:400; margin:0;
+      overflow:hidden; background: #D8931E; background:
+      -webkit-linear-gradient(-90deg, #D8931E, #965D03); background:
+      -o-linear-gradient(-90deg, #D8931E, #965D03); background:
+      -moz-linear-gradient(-90deg, #D8931E, #965D03); background:
+      linear-gradient(-90deg, #D8931E, #965D03); } .catagory_title_4{ padding:
+      6px; color:#fff; font-size:20px; font-weight:400; margin:0;
+      overflow:hidden; background: #4DA9E4; background:
+      -webkit-linear-gradient(-90deg, #4DA9E4, #1C76B1); background:
+      -o-linear-gradient(-90deg, #4DA9E4, #1C76B1); background:
+      -moz-linear-gradient(-90deg, #4DA9E4, #1C76B1); background:
+      linear-gradient(-90deg, #4DA9E4, #1C76B1); } .add { margin-top:10px;
+      margin-bottom:5px; } .add img{ width:100%; height:auto; }
+      .news_information img{ width:35%; float:left; margin-right:10px;
+      padding:30px; } .news_information{ width:100%; border:1px solid#808080;
+      background:#ECECEC; float:left; padding-bottom:30px; overflow:hidden;
+      margin-bottom:20px; } .news_information ul{ margin-top:30px; }
+      .news_information ul li{ list-style:none; } .news_information ul li a{
+      font-size:14px; color:#3e3d3c; line-height:auto; padding-left:18px; }
+      .news_information ul li a:hover{ text-decoration:none; color:#066ab0; }
+      .news_information li:before { content: "\f00c"; /* FontAwesome Unicode */
+      font-family: FontAwesome; display: inline-block; margin-left: -1.0em; /*
+      same as padding-left set on li */ width: 0.3em; /* same as padding-left
+      set on li */ } .academy_information i { color:#fff; font-size:16px;
+      padding-top:3px; padding-left:15px; } .academy_information a { color:#fff;
+      font-size:16px; padding-left:10px; text-decoration:none;
+      text-align:center!important; } .academy_information { overflow:hidden;
+      width:100%; } .academy_information ul li{ list-style:none;
+      margin-left:-50px !important; } .academy_information li{
+      margin-bottom:6px; padding:7px; background: #DE182C; background:
+      -webkit-linear-gradient(-90deg, #DE182C, #C71528); background:
+      -o-linear-gradient(-90deg, #DE182C, #C71528); background:
+      -moz-linear-gradient(-90deg, #DE182C, #C71528); background:
+      linear-gradient(-90deg, #DE182C, #C71528); } .academy_information
+      li:hover{ margin-bottom:6px; padding:7px; background: #E58A47; background:
+      -webkit-linear-gradient(-90deg, #E58A47, #A64B08); background:
+      -o-linear-gradient(-90deg, #E58A47, #A64B08); background:
+      -moz-linear-gradient(-90deg, #E58A47, #A64B08); background:
+      linear-gradient(-90deg, #E58A47, #A64B08); } .academy_information
+      li:before { content: "\f18e"; /* FontAwesome Unicode */ font-family:
+      FontAwesome; display: inline-block; margin-left: 1.0em; /* same as
+      padding-left set on li */ width: 1.3em; /* same as padding-left set on li
+      */ color:white; } .notice_box{ width:100%; overflow:hidden;
+      background:#ebebeb; padding-bottom:10px; padding-right:5px;
+      margin-bottom:10px; } .notice_box ul{ overflow:hidden; margin-top:10px; }
+      .notice_box ul li{ padding-top:8px!important;
+      padding-bottom:8px!important; list-style:none; } .notice_box ul li i{
+      font-size:13px; margin-left:-25px; margin-right:5px; } .notice_box ul li
+      a{ font-size:15px; color:#3e3d3c; line-height:auto; } .notice_box ul li
+      a:hover{ text-decoration:none; color:#066ab0; } .notice_box li:before {
+      content: "\f18e"; /* FontAwesome Unicode */ font-family: FontAwesome;
+      display: inline-block; margin-left: -1.0em; /* same as padding-left set on
+      li */ width: 1.3em; /* same as padding-left set on li */ }
+      /******************* bootom_footer start*****************/ .social-link{
+      overflow:hidden; } .social-link ul { text-align: center; padding:0
+      !important; margin:0 !important; } .social-link ul li { display: inline;
+      list-style: none; padding: 0 5px; } .social-link ul li a:hover i {
+      -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg); transform: rotate(360deg);
+      -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition:
+      all 0.3s; -ms-transition: all 0.3s; transition: all 0.3s; } .social-link
+      ul li a i { color: #fff; -webkit-transition: all 0.8s; -moz-transition:
+      all 0.8s; -o-transition: all 0.8s; -ms-transition: all 0.8s; transition:
+      all 0.8s; } /******************* contact us css start *****************/
+      .contuct_box{ margin-bottom:30px; margin-top:20px; } .contact_us_text p{
+      font-weight:400; font-size:20px; color:#3C3C3C; text-decoration:none;
+      text-align:justify; } .form_box{ padding-right:20px; } .form_box button{
+      margin-left:10px; margin-top:10px; width:30%; overflow:hidden; }
+      .form-group { width: 100%; position: relative; left: 10px; line-height:
+      22px; float:center; } .form-group:hover input { width: 100%; border:2px
+      solid#FE2E2B; } .sub-group { width: 100%; position: relative; left: 10px;
+      line-height: 22px; float:center; margin-top:15px; } .sub-group:hover input
+      { width: 100%; border:2px solid#FE2E2B; } .Chat-group { width: 100%;
+      position: relative; left: 10px; line-height: 22px; float:center;
+      margin-top:15px; } .sub-group:hover textarea { width: 100%; border:2px
+      solid#FE2E2B; } /*============================================
+      employee_imformation css start ==
+      =========================================*/ .employee_box{
+      margin-bottom:5px !important; margin-top:5px!important; overflow:hidden; }
+      .image_title img{ width:100%; height:auto; border:1px
+      solid#E7E5E5!important; padding:2px; background:#fff!important; }
+      .employee_imformation{ background:#E8E8FF; padding:8px 12px 12px 12px;
+      text-align:center; } .employee_imformation a{ font-size:16px; color:#000;
+      font-weight:400; text-decoration:none; } .employee_imformation a:hover{
+      color:#FF0000; } .service-img { position: relative; overflow: hidden }
+      .service-img img { -webkit-transition: all 0.5s ease; transition: all 0.6s
+      ease; width:100%; height:auto; } .service-img img:hover { position:
+      relative; z-index: 20; -webkit-transform: scale(1.1111); transform:
+      scale(1.1111); } /*============================================
+      photogallary Page css start ============================================*/
+      .photogallary{ margin-bottom:5px !important; margin-top:5px!important;
+      overflow:hidden; } .gallary img{ width:100%; height:auto; border:1px
+      solid#E7E5E5!important; padding:2px; background:#fff!important; }
+      .photo_title a{ color:#000; } .photo_title a:hover{ color:#23529C; }
+      .photo_title { background:#E8E8FF; padding:8px 12px 12px 12px;
+      text-align:center; } /*============================================
+      single_page css start ============================================*/
+      .single_page{ margin-bottom:10px !important; margin-top:10px!important;
+      overflow:hidden; } .page_hadding{ font-size:22px; line-height:auto;
+      color:#020F74; border-bottom:1px solid#B9B9B9; border-top:1px
+      solid#B9B9B9; padding-bottom:10px; padding-top:10px; text-align:center; }
+      .page_dtails { padding:20px 0px 30px 0px;; } .page_dtails p{ color:#000;
+      text-align:justify; } .page_dtails iframe { width:100%; height:350px; }
+      /*============================================ Photo Gallery single_page
+      css start ============================================*/ .psingle_page{
+      margin-bottom:10px !important; margin-top:10px!important; overflow:hidden;
+      } .psingle_page img{ width:100%; height:auto; } .ppage_hadding{
+      font-size:22px; line-height:auto; color:#020F74; border-bottom:1px
+      solid#B9B9B9; border-top:1px solid#B9B9B9; padding-bottom:10px;
+      padding-top:10px; text-align:center; }
+      /*============================================ blog_page css start
+      ============================================*/ .card_1 { box-shadow: 3px
+      3px 3px 3px rgba(0,0,0,0.1); transition: 0.1s; } .card_1:hover {
+      box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1); } .blog_page{
+      margin-bottom:10px !important; margin-top:10px!important; overflow:hidden;
+      padding:20px 0px 20px 0px; } .blog_hadding a{ font-size:21px;
+      line-height:auto; color:#020F74; text-decoration:none; margin-bottom:8px;
+      } .blog_hadding a:hover{ color:#7A0335; } .blog_dtails { overflow:hidden;
+      padding:15px; border-bottom:3px solid#ABA9A9; border-left:5px
+      solid#353A60; margin-bottom:20px; } .blog_dtails img{ width:20%;
+      height:auto; float:left; padding:15px 8px 15px 8px; margin-right:10px;
+      border:1px solid#E7E5E5!important; padding:2px; background:#fff!important;
+      overflow:hidden; } .blog_dtails p{ font-size:15px; color:#000;
+      overflow:hidden; text-align:justify; }
+      /*============================================ download_page css start
+      ============================================*/ .download_page{
+      margin-bottom:10px !important; margin-top:10px!important; overflow:hidden;
+      padding:30px; } .download_hadding span{ font-size:20px; color:#fff;
+      background:#072C01; padding:10px 12px 13px 12px; } .download_hadding a{
+      font-size:20px; text-decoration:none; color:#000; background:#E2E4E2;
+      padding:8px 8px 8px 8px; } .download_dtails { overflow:hidden;
+      margin-top:10px; margin-bottom:20px; } /* facebook title
+      ========================= */ .fb-root{ margin-bottom:5px; }
+      .facebook_title a{ color:#fff; } ]]></b:skin
+    >
+    <b:if cond="data:view.isLayoutMode">
       <b:template-skin>
-      <![CDATA[
-      #editorframe {
-width: 500px;
-}
-      ]]>
+        <![CDATA[ #editorframe { width: 500px; } ]]>
       </b:template-skin>
-      </b:if>
-      <title><data:blog.title/></title>
+    </b:if>
+    <title><data:blog.title/></title>
   </head>
-  
+
   <body>
-      <b:section id='sources'/>
-    
-  <div class='container'>
-    <b:section id='Header'>
-      <b:widget id='Image1' locked='false' title='' type='Image' version='1'>
-        <b:widget-settings>
-          <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4ExohgexMOji0u9-cCQ3c4CtCmqJfmflCNrPcNvbLnFEUfK-AW9vVVBHjH7nxRz0hITDMjtWr61E-HaeN9qDP5NgKSiTtz7b7oNK5EkkzGp7u7cM5Anzay-H2vMkPxv6SzBpVVw4VoigVvzitoEVLjuzJf5VgmD9t0M8=s1200-d</b:widget-setting>
-          <b:widget-setting name='displayHeight'>200</b:widget-setting>
-          <b:widget-setting name='sectionWidth'>1615</b:widget-setting>
-          <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-          <b:widget-setting name='displayWidth'>1200</b:widget-setting>
-          <b:widget-setting name='link'/>
-          <b:widget-setting name='caption'/>
-        </b:widget-settings>
-        <b:includable id='main'>
-          <a expr:href='data:link'><img alt='Logo' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' width='100%'/></a>
-      <br/>
-  </b:includable>
-      </b:widget>
-    </b:section>
-    
-  
-    <nav class='navbar navbar-expand-lg navbar-dark bg-primary'>
-      <div class='container-fluid'>
-   <button aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-bs-target='#main_nav' data-bs-toggle='collapse' type='button'>
-     <span class='navbar-toggler-icon'/>
-   </button>
-   <div class='collapse navbar-collapse' id='main_nav'>
-	
+    <b:section id="sources" />
 
-	<ul class='navbar-nav'>
-		<li class='nav-item active'> <a class='nav-link' href='#'>Home </a> </li>
-		<li class='nav-item'><a class='nav-link' href='#'> About </a></li>
-		<li class='nav-item dropdown'>
-			<a aria-expanded='false' class='nav-link dropdown-toggle' data-bs-toggle='dropdown' href='#'>  Treeview menu  </a>
-		    <ul class='dropdown-menu'>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 1 </a></li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 2 &#187; </a>
-			  	 <ul class='submenu dropdown-menu'>
-				    <li><a class='dropdown-item' href='#'>Submenu item 1</a></li>
-				    <li><a class='dropdown-item' href='#'>Submenu item 2</a></li>
-				    <li><a class='dropdown-item' href='#'>Submenu item 3 &#187; </a>
-				    	<ul class='submenu dropdown-menu'>
-						    <li><a class='dropdown-item' href='#'>Multi level 1</a></li>
-						    <li><a class='dropdown-item' href='#'>Multi level 2</a></li>
-						</ul>
-				    </li>
-				    <li><a class='dropdown-item' href='#'>Submenu item 4</a></li>
-				    <li><a class='dropdown-item' href='#'>Submenu item 5</a></li>
-				 </ul>
-			  </li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 3 </a></li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 4 </a>
-		    </li></ul>
-		</li>
-		<li class='nav-item dropdown'>
-			<a aria-expanded='false' class='nav-link dropdown-toggle' data-bs-toggle='dropdown' href='#'>  More items  </a>
-		    <ul class='dropdown-menu'>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 1 </a></li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 2 &#187; </a>
-			  	 <ul class='submenu dropdown-menu'>
-				    <li><a class='dropdown-item' href='#'>Submenu item 1</a></li>
-				    <li><a class='dropdown-item' href='#'>Submenu item 2</a></li>
-				    <li><a class='dropdown-item' href='#'>Submenu item 3</a></li>
-				 </ul>
-			  </li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 3 &#187; </a>
-			  	 <ul class='submenu dropdown-menu'>
-				    <li><a class='dropdown-item' href='#'>Another submenu 1</a></li>
-				    <li><a class='dropdown-item' href='#'>Another submenu 2</a></li>
-				    <li><a class='dropdown-item' href='#'>Another submenu 3</a></li>
-				    <li><a class='dropdown-item' href='#'>Another submenu 4</a></li>
-				 </ul>
-			  </li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 4 &#187;</a>
-			  	 <ul class='submenu dropdown-menu'>
-				    <li><a class='dropdown-item' href='#'>Another submenu 1</a></li>
-				    <li><a class='dropdown-item' href='#'>Another submenu 2</a></li>
-				    <li><a class='dropdown-item' href='#'>Another submenu 3</a></li>
-				    <li><a class='dropdown-item' href='#'>Another submenu 4</a></li>
-				 </ul>
-			  </li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 5 </a></li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 6 </a></li>
-		    </ul>
-		</li>
-	</ul>
+    <div class="container">
+      <b:section id="Header">
+        <b:widget id="Image1" locked="false" title="" type="Image" version="1">
+          <b:widget-settings>
+            <b:widget-setting name="displayUrl"
+              >https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4ExohgexMOji0u9-cCQ3c4CtCmqJfmflCNrPcNvbLnFEUfK-AW9vVVBHjH7nxRz0hITDMjtWr61E-HaeN9qDP5NgKSiTtz7b7oNK5EkkzGp7u7cM5Anzay-H2vMkPxv6SzBpVVw4VoigVvzitoEVLjuzJf5VgmD9t0M8=s1200-d</b:widget-setting
+            >
+            <b:widget-setting name="displayHeight">200</b:widget-setting>
+            <b:widget-setting name="sectionWidth">1615</b:widget-setting>
+            <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+            <b:widget-setting name="displayWidth">1200</b:widget-setting>
+            <b:widget-setting name="link" />
+            <b:widget-setting name="caption" />
+          </b:widget-settings>
+          <b:includable id="main">
+            <a expr:href="data:link"
+              ><img
+                alt="Logo"
+                expr:height="data:height"
+                expr:id='data:widget.instanceId + "_img"'
+                expr:src="data:sourceUrl"
+                width="100%"
+            /></a>
+            <br />
+          </b:includable>
+        </b:widget>
+      </b:section>
 
-	<ul class='navbar-nav ms-auto'>
-		<li class='nav-item'><a class='nav-link' href='#'> Menu item </a></li>
-		<li class='nav-item'><a class='nav-link' href='#'> Menu item </a></li>
-		<li class='nav-item dropdown'>
-			<a aria-expanded='false' class='nav-link dropdown-toggle' data-bs-toggle='dropdown' href='#'> Dropdown right </a>
-		    <ul class='dropdown-menu dropdown-menu-right'>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 1</a></li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 2 </a></li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 3 &#187; </a>
-			  	 <ul class='submenu submenu-left dropdown-menu'>
-				    <li><a class='dropdown-item' href=''>Submenu item 1</a></li>
-				    <li><a class='dropdown-item' href=''>Submenu item 2</a></li>
-				    <li><a class='dropdown-item' href=''>Submenu item 3</a></li>
-				    <li><a class='dropdown-item' href=''>Submenu item 4</a></li>
-				 </ul>
-			  </li>
-			  <li><a class='dropdown-item' href='#'> Dropdown item 4 </a></li>
-		    </ul>
-		</li>
-	</ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <button
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+            data-bs-target="#main_nav"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span class="navbar-toggler-icon" />
+          </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home </a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+              <li class="nav-item dropdown">
+                <a
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                >
+                  Treeview menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 1 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Dropdown item 2 &#187;
+                    </a>
+                    <ul class="submenu dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Submenu item 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Submenu item 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Submenu item 3 &#187;
+                        </a>
+                        <ul class="submenu dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#">Multi level 1</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Multi level 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Submenu item 4</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Submenu item 5</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 3 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                >
+                  More items
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 1 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Dropdown item 2 &#187;
+                    </a>
+                    <ul class="submenu dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Submenu item 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Submenu item 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Submenu item 3</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Dropdown item 3 &#187;
+                    </a>
+                    <ul class="submenu dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 3</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 4</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Dropdown item 4 &#187;</a
+                    >
+                    <ul class="submenu dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 3</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another submenu 4</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 5 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 6 </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
 
-  </div> <!-- navbar-collapse.// -->
- </div> <!-- container-fluid.// -->
-</nav>
-    
-    
-    
-    <div class='carousel slide' data-bs-ride='false' id='carouselExampleCaptions'>
-  <div class='carousel-indicators'>
-    <button aria-current='true' aria-label='Slide 1' class='active' data-bs-slide-to='0' data-bs-target='#carouselExampleCaptions' type='button'/>
-    <button aria-label='Slide 2' data-bs-slide-to='1' data-bs-target='#carouselExampleCaptions' type='button'/>
-    <button aria-label='Slide 3' data-bs-slide-to='2' data-bs-target='#carouselExampleCaptions' type='button'/>
-  </div>
-  <b:section class='carousel-inner' id='Image-Slider'>
-    <b:widget id='Image2' locked='false' title='প্রথম স্লাইডার' type='Image' version='1'>
-      <b:widget-settings>
-        <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4EykEutQh2ahsAGPFdYIhNnjwUpMlQlw17fW2rRdy2EXOG7qn7d-3p6KsFfouc7Y0bqjoUwoKwX-DVeGxM6Jh75e6b_2EpHsCXda33QhsQx5C4zLlETcTC9VumtFt9KhaqMIUDFjW2bu=s1000-d</b:widget-setting>
-        <b:widget-setting name='displayHeight'>300</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>1615</b:widget-setting>
-        <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-        <b:widget-setting name='displayWidth'>1000</b:widget-setting>
-        <b:widget-setting name='link'/>
-        <b:widget-setting name='caption'/>
-      </b:widget-settings>
-      <b:includable id='main'>
-        <b:class name='carousel-item active'/>
-        <img class='d-block w-100' expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-        <div class='carousel-caption d-none d-md-block'>
-          <h5>
-            <b:if cond='data:title != &quot;&quot;'>
-              <h2><data:title/></h2>
-            </b:if>
-          </h5>
-          <p>
-            <b:if cond='data:caption'>
-              <span class='caption'><data:caption/></span>
-            </b:if>
-          </p>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Menu item </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Menu item </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                >
+                  Dropdown right
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 2 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Dropdown item 3 &#187;
+                    </a>
+                    <ul class="submenu submenu-left dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="">Submenu item 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">Submenu item 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">Submenu item 3</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">Submenu item 4</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- navbar-collapse.// -->
         </div>
-      </b:includable>
-    </b:widget>
-    <b:widget id='Image3' locked='false' title='দ্বিতীয় স্লাইড' type='Image' version='1'>
-      <b:widget-settings>
-        <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4EzcCFI5myuWgFFahX3_JRodDollWdkw0NtiLj14bdNXXWRlk80DJQJ9MGLq49je8SSt_K_erAfSPlad9WP9XoKD7JI4KxY2w-RVbQl1rV9vGjAO6jx1SEBeHWWVwIgpA-XRPckBEr0Y=s1000-d</b:widget-setting>
-        <b:widget-setting name='displayHeight'>300</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>1615</b:widget-setting>
-        <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-        <b:widget-setting name='displayWidth'>1000</b:widget-setting>
-        <b:widget-setting name='link'/>
-        <b:widget-setting name='caption'/>
-      </b:widget-settings>
-      <b:includable id='main'>
-        <b:class name='carousel-item'/>
-        <img class='d-block w-100' expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-        <div class='carousel-caption d-none d-md-block'>
-          <h5>
-            <b:if cond='data:title != &quot;&quot;'>
-              <h2><data:title/></h2>
-            </b:if>
-          </h5>
-          <p>
-            <b:if cond='data:caption'>
-              <span class='caption'><data:caption/></span>
-            </b:if>
-          </p>
+        <!-- container-fluid.// -->
+      </nav>
+
+      <div
+        class="carousel slide"
+        data-bs-ride="false"
+        id="carouselExampleCaptions"
+      >
+        <div class="carousel-indicators">
+          <button
+            aria-current="true"
+            aria-label="Slide 1"
+            class="active"
+            data-bs-slide-to="0"
+            data-bs-target="#carouselExampleCaptions"
+            type="button"
+          />
+          <button
+            aria-label="Slide 2"
+            data-bs-slide-to="1"
+            data-bs-target="#carouselExampleCaptions"
+            type="button"
+          />
+          <button
+            aria-label="Slide 3"
+            data-bs-slide-to="2"
+            data-bs-target="#carouselExampleCaptions"
+            type="button"
+          />
         </div>
-      </b:includable>
-    </b:widget>
-    <b:widget id='Image4' locked='false' title='তৃতীয় স্লাইড' type='Image' version='1'>
-      <b:widget-settings>
-        <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4EzcCFI5myuWgFFahX3_JRodDollWdkw0NtiLj14bdNXXWRlk80DJQJ9MGLq49je8SSt_K_erAfSPlad9WP9XoKD7JI4KxY2w-RVbQl1rV9vGjAO6jx1SEBeHWWVwIgpA-XRPckBEr0Y=s1000-d</b:widget-setting>
-        <b:widget-setting name='displayHeight'>300</b:widget-setting>
-        <b:widget-setting name='sectionWidth'>1615</b:widget-setting>
-        <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-        <b:widget-setting name='displayWidth'>1000</b:widget-setting>
-        <b:widget-setting name='link'/>
-        <b:widget-setting name='caption'/>
-      </b:widget-settings>
-      <b:includable id='main'>
-        <b:class name='carousel-item'/>
-        <img class='d-block w-100' expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-        <div class='carousel-caption d-none d-md-block'>
-          <h5>
-            <b:if cond='data:title != &quot;&quot;'>
-              <h2><data:title/></h2>
-            </b:if>
-          </h5>
-          <p>
-            <b:if cond='data:caption'>
-              <span class='caption'><data:caption/></span>
-            </b:if>
-          </p>
-        </div>
-      </b:includable>
-    </b:widget>
-  </b:section>
-  <button class='carousel-control-prev' data-bs-slide='prev' data-bs-target='#carouselExampleCaptions' type='button'>
-    <span aria-hidden='true' class='carousel-control-prev-icon'/>
-    <span class='visually-hidden'>Previous</span>
-  </button>
-  <button class='carousel-control-next' data-bs-slide='next' data-bs-target='#carouselExampleCaptions' type='button'>
-    <span aria-hidden='true' class='carousel-control-next-icon'/>
-    <span class='visually-hidden'>Next</span>
-  </button>
-</div>
-
-
-
-<b:section id='notice-section' title='notice'>
-  <b:widget id='LinkList1' locked='false' title='নোটিশ' type='LinkList' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='text-1'>আম&#2494;দ&#2503;র শ&#2495;ক&#2509;ষ&#2494; প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2503; আপন&#2494;দ&#2503;র স&#2509;ব&#2494;গতম&#2404;</b:widget-setting>
-      <b:widget-setting name='link-1'>#</b:widget-setting>
-      <b:widget-setting name='text-0'>এই স&#2509;ক&#2497;ল&#2503;র ড&#2495;জ&#2494;ইনট&#2495; ক&#2509;রয় করত&#2503; য&#2507;গ&#2494;য&#2507;গ কর&#2497;ন : ০১৭৩২৬৬৭৩৬৪</b:widget-setting>
-      <b:widget-setting name='link-0'>#</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-      <b:class name='d-flex'/>
-<b:if cond='data:title != &quot;&quot;'><div class='col-lg-2 col-md-2 col-sm-2 scrool_1'><data:title/></div></b:if>
-   <div class='col-lg-10 col-md-10 col-sm-10 scrool_2'><marquee direction='left' onmouseout='this.start()' onmouseover='this.stop()' scrollamount='4px'>
-     <b:loop values='data:links' var='link'>
-       <i class='fa fa-stop-circle'/> <a expr:href='data:link.target'><data:link.name/></a>
-     </b:loop>
-    </marquee>
-   </div>
-</b:includable>
-  </b:widget>
-</b:section>  
-    
-
-    
-   
-    <div class='row mt-5'>
-      <div class='col-lg-9 col-md-9 col-sm-9'>
-        <b:section class='row' id='History'>
-          <b:widget id='Image5' locked='false' title='প্রতিষ্ঠানের ইতিহাস' type='Image' version='1'>
+        <b:section class="carousel-inner" id="Image-Slider">
+          <b:widget
+            id="Image2"
+            locked="false"
+            title="প্রথম স্লাইডার"
+            type="Image"
+            version="1"
+          >
             <b:widget-settings>
-              <b:widget-setting name='displayUrl'>https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4ExOapMs7Fn8I_x85MyeGrKJ-wWUoQ20QWItwtkrliFVNGXeFORBzzGKLiMKmtNXIGao0H2Eebaf72vu-LEydeuiR1rQgV2VWd_MwooDpaVPtln_K2dPSGKP7jBTocGlFNrLGuBE7D8=s741-d</b:widget-setting>
-              <b:widget-setting name='displayHeight'>320</b:widget-setting>
-              <b:widget-setting name='sectionWidth'>1615</b:widget-setting>
-              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-              <b:widget-setting name='displayWidth'>741</b:widget-setting>
-              <b:widget-setting name='link'>/p/history.html</b:widget-setting>
-              <b:widget-setting name='caption'>স&#2497;ন&#2494;মগঞ&#2509;জ জ&#2503;ল&#2494;ধ&#2496;ন জগন&#2509;ন&#2494;থপ&#2497;রস&#2509;থ এক প&#2509;র&#2494;চ&#2496;ন জনপদ&#2503;র ন&#2494;ম ইসহ&#2494;কপ&#2497;র &#2404; এ গ&#2509;র&#2494;ম&#2503;র সম&#2509;ভ&#2509;র&#2494;ন&#2509;ত ধর&#2509;মভ&#2496;র&#2497; ম&#2497;সল&#2495;ম পর&#2495;ব&#2494;র সম&#2498;হ&#2503;র মধ&#2509;য&#2503; শ&#2496;র&#2509;ষস&#2509;থ&#2494;ন&#2503; অবস&#2509;থ&#2494;ন খ&#2494;ন পর&#2495;ব&#2494;র&#2503;র &#2404; ব&#2434;শমর&#2509;য&#2494;দ&#2494;য় য&#2503;মন শ&#2509;র&#2503;ষ&#2509;ঠত&#2509;ব&#2503;র দ&#2494;ব&#2496;দ&#2494;র ত&#2503;মন&#2495; শ&#2495;ক&#2509;ষ&#2494;-দ&#2496;ক&#2509;ষ&#2494;য়, ধর&#2509;মভ&#2496;র&#2497;ত&#2494;য়.স&#2494;ম&#2494;জ&#2495;ক আচ&#2494;র-অন&#2497;ষ&#2509;ঠ&#2494;ন&#2503; এ জনপদ&#2503;র অন&#2509;য সব&#2503;র উপর রয়&#2503;ছ&#2503; এ পর&#2495;ব&#2494;র&#2503;র অত&#2497;লন&#2496;য় সম&#2509;ম&#2494;ন&#2404; যতদ&#2498;র জ&#2494;ন&#2494; য&#2494;য় মরহ&#2497;ম দ&#2503;লওয়&#2494;র খ&#2494;ন ছ&#2495;ল&#2503;ন এ পর&#2495;ব&#2494;র&#2503;র একজন শ&#2495;ক&#2509;ষ&#2495;ত ব&#2509;যক&#2509;ত&#2495; &#2404;ত&#2495;ন&#2495; য&#2503;মন ছ&#2495;ল&#2503;ন</b:widget-setting>
+              <b:widget-setting name="displayUrl"
+                >https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4EykEutQh2ahsAGPFdYIhNnjwUpMlQlw17fW2rRdy2EXOG7qn7d-3p6KsFfouc7Y0bqjoUwoKwX-DVeGxM6Jh75e6b_2EpHsCXda33QhsQx5C4zLlETcTC9VumtFt9KhaqMIUDFjW2bu=s1000-d</b:widget-setting
+              >
+              <b:widget-setting name="displayHeight">300</b:widget-setting>
+              <b:widget-setting name="sectionWidth">1615</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="displayWidth">1000</b:widget-setting>
+              <b:widget-setting name="link" />
+              <b:widget-setting name="caption" />
             </b:widget-settings>
-            <b:includable id='main'>
-        <b:class name='col-lg-12 col-md-12 col-sm-12'/>
-        <h4 class='catagory_title'>
-              <b:if cond='data:title != &quot;&quot;'><data:title/></b:if>
-        </h4>
-        <div class='History'>
-          <img class='attachment-post-thumbnail size-post-thumbnail wp-post-image' expr:alt='data:title' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' height='320' sizes='(max-width: 741px) 100vw, 741px' width='741'/>
-        <p>
-          <b:if cond='data:caption'>
-            <span class='caption'><data:caption/></span>
-          </b:if> 
-          <a class='readmore' expr:href='data:link'>
-            <span style='text-align: right'>ব&#2495;স&#2509;ত&#2494;র&#2495;ত...</span></a>
-        </p>
+            <b:includable id="main">
+              <b:class name="carousel-item active" />
+              <img
+                class="d-block w-100"
+                expr:alt="data:title"
+                expr:height="data:height"
+                expr:id='data:widget.instanceId + "_img"'
+                expr:src="data:sourceUrl"
+                expr:width="data:width"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>
+                  <b:if cond='data:title != ""'>
+                    <h2><data:title /></h2>
+                  </b:if>
+                </h5>
+                <p>
+                  <b:if cond="data:caption">
+                    <span class="caption"><data:caption /></span>
+                  </b:if>
+                </p>
               </div>
-  </b:includable>
+            </b:includable>
+          </b:widget>
+          <b:widget
+            id="Image3"
+            locked="false"
+            title="দ্বিতীয় স্লাইড"
+            type="Image"
+            version="1"
+          >
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl"
+                >https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4EzcCFI5myuWgFFahX3_JRodDollWdkw0NtiLj14bdNXXWRlk80DJQJ9MGLq49je8SSt_K_erAfSPlad9WP9XoKD7JI4KxY2w-RVbQl1rV9vGjAO6jx1SEBeHWWVwIgpA-XRPckBEr0Y=s1000-d</b:widget-setting
+              >
+              <b:widget-setting name="displayHeight">300</b:widget-setting>
+              <b:widget-setting name="sectionWidth">1615</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="displayWidth">1000</b:widget-setting>
+              <b:widget-setting name="link" />
+              <b:widget-setting name="caption" />
+            </b:widget-settings>
+            <b:includable id="main">
+              <b:class name="carousel-item" />
+              <img
+                class="d-block w-100"
+                expr:alt="data:title"
+                expr:height="data:height"
+                expr:id='data:widget.instanceId + "_img"'
+                expr:src="data:sourceUrl"
+                expr:width="data:width"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>
+                  <b:if cond='data:title != ""'>
+                    <h2><data:title /></h2>
+                  </b:if>
+                </h5>
+                <p>
+                  <b:if cond="data:caption">
+                    <span class="caption"><data:caption /></span>
+                  </b:if>
+                </p>
+              </div>
+            </b:includable>
+          </b:widget>
+          <b:widget
+            id="Image4"
+            locked="false"
+            title="তৃতীয় স্লাইড"
+            type="Image"
+            version="1"
+          >
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl"
+                >https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4EzcCFI5myuWgFFahX3_JRodDollWdkw0NtiLj14bdNXXWRlk80DJQJ9MGLq49je8SSt_K_erAfSPlad9WP9XoKD7JI4KxY2w-RVbQl1rV9vGjAO6jx1SEBeHWWVwIgpA-XRPckBEr0Y=s1000-d</b:widget-setting
+              >
+              <b:widget-setting name="displayHeight">300</b:widget-setting>
+              <b:widget-setting name="sectionWidth">1615</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="displayWidth">1000</b:widget-setting>
+              <b:widget-setting name="link" />
+              <b:widget-setting name="caption" />
+            </b:widget-settings>
+            <b:includable id="main">
+              <b:class name="carousel-item" />
+              <img
+                class="d-block w-100"
+                expr:alt="data:title"
+                expr:height="data:height"
+                expr:id='data:widget.instanceId + "_img"'
+                expr:src="data:sourceUrl"
+                expr:width="data:width"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>
+                  <b:if cond='data:title != ""'>
+                    <h2><data:title /></h2>
+                  </b:if>
+                </h5>
+                <p>
+                  <b:if cond="data:caption">
+                    <span class="caption"><data:caption /></span>
+                  </b:if>
+                </p>
+              </div>
+            </b:includable>
           </b:widget>
         </b:section>
-        
-
-
-        <div class='row'>
-          <div class='col-lg-6 col-md-6 col-sm-6'>
-            <h4 class='catagory_title'>
-              অধ&#2509;যক&#2509;ষ&#2503;র ব&#2494;ণ&#2496;
-            </h4>
-
-            <div class='profile'>
-              <img alt='' class='attachment-post-thumbnail size-post-thumbnail wp-post-image' height='500' src='http://themesbazar.net/educational/wp-content/uploads/2018/04/12.gif' width='400'/>
-              <p>
-                ম&#2494;ধ&#2509;যম&#2495;ক ও উচ&#2509;চ
-                ম&#2494;ধ&#2509;যম&#2495;ক শ&#2495;ক&#2509;ষ&#2494;
-                ব&#2507;র&#2509;ড, যশ&#2507;র জনগণ&#2503;র
-                দ&#2507;রগ&#2507;ড়&#2494;য় শ&#2495;ক&#2509;ষ&#2494;
-                স&#2503;ব&#2494; প&#2508;&#2433;ছ&#2503; দ&#2503;ব&#2494;র
-                লক&#2509;ষ&#2509;য&#2503; য&#2494;বত&#2496;য়
-                ক&#2494;র&#2509;য&#2494;দ&#2496; সম&#2509;প&#2494;দন
-                ড&#2495;জ&#2495;ট&#2494;ল প&#2509;রয&#2497;ক&#2509;ত&#2495;
-                ব&#2509;যবহ&#2494;র ও যশ&#2507;র
-                শ&#2495;ক&#2509;ষ&#2494;ব&#2507;র&#2509;ড&#2503;র অধ&#2496;ন সকল
-                প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2503;র তথ&#2509;য
-                অনল&#2494;ইন&#2503; প&#2509;র&#2503;রণ&#2503;র
-                ব&#2509;যবস&#2509;থ&#2494; ন&#2503;ওয়&#2494; হয়&#2503;ছ&#2503;
-                জ&#2503;ন&#2503; আম&#2495; আনন&#2509;দ&#2495;ত&#2404;
-                ব&#2499;ট&#2495;শ ঔপন&#2495;ব&#2503;শ&#2495;ক আমল&#2503;
-                মহৎপ&#2509;র&#2494;ণ ব&#2509;যক&#2509;ত&#2495; ব&#2494;ব&#2497;
-                মথ&#2497;র&#2494;ন&#2494;থ ক&#2497;ন&#2509;ড&#2497;
-                মহ&#2494;শয়&#2503;র প&#2509;রচ&#2503;ষ&#2509;ট&#2494;য় ১৮৫৬
-                খ&#2509;র&#2495;&#2435; প&#2509;রত&#2495;ষ&#2509;ঠ&#2495;ত
-                হয়&#2503;ছ&#2495;ল ঐত&#2495;হ&#2509;যব&#2494;হ&#2496;
-                ক&#2497;ম&#2494;রখ&#2494;ল&#2496; এম এন প&#2494;ইলট (মড&#2503;ল)
-                <a class='readmore' href='http://themesbazar.net/educational/speech-one/%e0%a6%85%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/ '/><span style='text-align: right'><a href='http://themesbazar.net/educational/speech-one/%e0%a6%85%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/'>ব&#2495;স&#2509;ত&#2494;র&#2495;ত...</a></span>
-              </p>
-            </div>
-          </div>
-          <div class='col-lg-6 col-md-6 col-sm-6'>
-            <h4 class='catagory_title'>
-              উপধ&#2509;যক&#2509;ষ&#2503;র ব&#2494;ণ&#2496;
-            </h4>
-
-            <div class='profile'>
-              <img alt='' class='attachment-post-thumbnail size-post-thumbnail wp-post-image' height='500' src='http://themesbazar.net/educational/wp-content/uploads/2018/04/08.gif' width='400'/>
-              <p>
-                ব&#2494;&#2434;ল&#2494;দ&#2503;শ&#2503;র
-                শ&#2495;ক&#2509;ষ&#2494; ব&#2509;যবস&#2509;থ&#2494;র একট&#2495;
-                প&#2498;র&#2509;ণ&#2494;ঙ&#2509;গ ধ&#2494;র&#2494;
-                ম&#2494;দর&#2494;স&#2494; শ&#2495;ক&#2509;ষ&#2494;&#2404;
-                স&#2494;ধ&#2494;রণ শ&#2495;ক&#2509;ষ&#2494;র
-                প&#2494;শপ&#2494;শ&#2495;
-                সম&#2494;ন&#2509;তর&#2494;লভ&#2494;ব&#2503; এট&#2495; বয়&#2503;
-                চল&#2503;ছ&#2503; দ&#2496;র&#2509;ঘদ&#2495;ন ধর&#2503; এব&#2434;
-                এ দ&#2503;শ&#2503;র জন-ম&#2494;নস&#2503; ত&#2494;র
-                স&#2509;থ&#2494;ন কর&#2503; ন&#2495;য়&#2503;ছ&#2503;
-                স&#2497;রক&#2509;ষ&#2495;ত ও
-                স&#2497;দ&#2499;ঢ়ভ&#2494;ব&#2503;&#2404; ধর&#2509;ম&#2496;য়
-                শ&#2495;ক&#2509;ষ&#2494; ও জ&#2494;গত&#2495;ক
-                শ&#2495;ক&#2509;ষ&#2494; দ&#2497;ট&#2495; পরস&#2509;পর&#2503;র
-                পর&#2495;প&#2497;রক&#2404; এ সমন&#2509;ব&#2495;ত
-                ইসল&#2494;ম&#2496; শ&#2495;ক&#2509;ষ&#2494;
-                ব&#2509;যবস&#2509;থ&#2494;র
-                প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2495;ক র&#2497;পই
-                হচ&#2509;ছ&#2503; ম&#2494;দর&#2494;স&#2494;
-                শ&#2495;ক&#2509;ষ&#2494;&#2404; ইহল&#2508;ক&#2495;ক
-                উন&#2509;নত&#2495;র স&#2494;থ&#2503; স&#2494;থ&#2503;
-                প&#2494;রল&#2508;ক&#2495;ক ম&#2497;ক&#2509;ত&#2495;র পথ
-                দ&#2503;খ&#2494;ত&#2503;ই প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;
-                <a class='readmore' href='http://themesbazar.net/educational/speech-two/%e0%a6%89%e0%a6%aa%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/ '/><span style='text-align: right'><a href='http://themesbazar.net/educational/speech-two/%e0%a6%89%e0%a6%aa%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/'>ব&#2495;স&#2509;ত&#2494;র&#2495;ত...</a></span>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <br/>
-
-        <div class='row'>
-          <div class='col-lg-6 col-md-6 col-sm-6'>
-            <div class='row'>
-              <div class='col-lg-12 col-md-12 col-sm-12'>
-                <h4 class='catagory_title_1'>
-                  ছ&#2494;ত&#2509;রছ&#2494;ত&#2509;র&#2496;দ&#2503;র তথ&#2509;য
-                </h4>
-                <div class='news_information'>
-                  <img src=' http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu01.jpg'/>
-                  <div class='menu-student-information-container'>
-                    <ul class='menu' id='menu-student-information'>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-115' id='menu-item-115'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a7%80%e0%a6%b0-%e0%a6%86%e0%a6%b8%e0%a6%a8-%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be/'>ছ&#2494;ত&#2509;রছ&#2494;ত&#2509;র&#2496;র আসন
-                          স&#2434;খ&#2509;য&#2494;</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-117' id='menu-item-117'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%a4%e0%a6%a5%e0%a7%8d%e0%a6%af/'>ভর&#2509;ত&#2495; তথ&#2509;য</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-116' id='menu-item-116'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%a8%e0%a7%8b%e0%a6%9f%e0%a6%bf%e0%a6%b6/'>ন&#2507;ট&#2495;শ</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-118' id='menu-item-118'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%a8/'>র&#2497;ট&#2495;ন</a>
-                      </li>
-                      <li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114' id='menu-item-114'>
-                        <a href='http://themesbazar.net/educational/category/%e0%a6%95%e0%a7%83%e0%a6%a4%e0%a6%bf-%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%a5%e0%a7%80/'>ক&#2499;ত&#2495;
-                          শ&#2495;ক&#2509;ষ&#2494;র&#2509;থ&#2496;</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class='col-lg-6 col-md-6 col-sm-6'>
-            <div class='row'>
-              <div class='col-lg-12 col-md-12 col-sm-12'>
-                <h4 class='catagory_title_2'>
-                  শ&#2495;ক&#2509;ষকদ&#2503;র তথ&#2509;য
-                </h4>
-                <div class='news_information'>
-                  <img src=' http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu02.jpg'/>
-                  <div class='menu-teachers-information-container'>
-                    <ul class='menu' id='menu-teachers-information'>
-                      <li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-120' id='menu-item-120'>
-                        <a href='http://themesbazar.net/educational/category/%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%95%e0%a6%ac%e0%a7%83%e0%a6%a8%e0%a7%8d%e0%a6%a6/'>শ&#2495;ক&#2509;ষকব&#2499;ন&#2509;দ</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-121' id='menu-item-121'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%b6%e0%a7%82%e0%a6%a3%e0%a7%8d%e0%a6%af%e0%a6%aa%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be/'>শ&#2498;ণ&#2509;যপদ&#2503;র
-                          ত&#2494;ল&#2495;ক&#2494;</a>
-                      </li>
-                      <li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119' id='menu-item-119'>
-                        <a href='http://themesbazar.net/educational/category/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%95%e0%a7%8d%e0%a6%a4%e0%a6%a8-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a7%e0%a6%be%e0%a6%a8-%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%95/'>প&#2509;র&#2494;ক&#2509;তন প&#2509;রধ&#2494;ন
-                          শ&#2495;ক&#2509;ষক</a>
-                      </li>
-                      <li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-122' id='menu-item-122'>
-                        <a href='http://themesbazar.net/educational/category/%e0%a6%95%e0%a6%b0%e0%a7%8d%e0%a6%ae%e0%a6%95%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be-%e0%a6%95%e0%a6%b0%e0%a7%8d%e0%a6%ae%e0%a6%9a%e0%a6%be%e0%a6%b0%e0%a7%80/'>কর&#2509;মকর&#2509;ত&#2494;
-                          কর&#2509;মচ&#2494;র&#2496;</a>
-                      </li>
-                      <li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-123' id='menu-item-123'>
-                        <a href='http://themesbazar.net/educational/category/%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%9a%e0%a6%be%e0%a6%b2%e0%a6%a8%e0%a6%be-%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%b7%e0%a6%a6/'>পর&#2495;চ&#2494;লন&#2494; পর&#2495;ষদ</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='row'>
-          <div class='col-lg-6 col-md-6 col-sm-6'>
-            <div class='row'>
-              <div class='col-lg-12 col-md-12 col-sm-12'>
-                <h4 class='catagory_title_3'>ড&#2494;উনল&#2507;ড</h4>
-                <div class='news_information'>
-                  <img src=' http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu03.jpg'/>
-                  <ul>
-                    <li>
-                      <a href='http://themesbazar.net/educational/download/%e0%a7%a7%e0%a6%ae-%e0%a6%b8%e0%a6%be%e0%a6%ae%e0%a7%9f%e0%a6%bf%e0%a6%95%e0%a6%bf-%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf/'>১ম স&#2494;ময়&#2495;ক&#2495; পর&#2496;ক&#2509;ষ&#2494;র
-                        র&#2497;ট&#2495;ন ড&#2494;উনল&#2507;ড</a>
-                    </li>
-
-                    <li>
-                      <a href='http://themesbazar.net/educational/download/%e0%a6%8f%e0%a6%b8%e0%a6%8f%e0%a6%b8%e0%a6%b8%e0%a6%bf-%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%a8-%e0%a6%a1%e0%a6%be/'>এসএসস&#2495; পর&#2496;ক&#2509;ষ&#2494;র
-                        র&#2497;ট&#2495;ন ড&#2494;উনল&#2507;ড</a>
-                    </li>
-
-                    <li>
-                      <a href='http://themesbazar.net/educational/download/%e0%a6%9b%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%b0-%e0%a6%a8%e0%a7%8b%e0%a6%9f%e0%a6%bf%e0%a6%b6-%e0%a6%a1%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a6%b2%e0%a7%8b%e0%a6%a1/'>ছ&#2497;ট&#2495;র ন&#2507;ট&#2495;শ
-                        ড&#2494;উনল&#2507;ড</a>
-                    </li>
-
-                    <li>
-                      <a href='http://themesbazar.net/educational/download/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%ab%e0%a6%b0%e0%a6%ae-%e0%a6%a1%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a6%b2%e0%a7%8b%e0%a6%a1-2/'>ভর&#2509;ত&#2495; ফরম ড&#2494;উনল&#2507;ড</a>
-                    </li>
-
-                    <li>
-                      <a href='http://themesbazar.net/educational/download/%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%a8-%e0%a6%a1%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a6%b2%e0%a7%8b%e0%a6%a1/'>পর&#2496;ক&#2509;ষ&#2494;র র&#2497;ট&#2495;ন
-                        ড&#2494;উনল&#2507;ড</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class='col-lg-6 col-md-6 col-sm-6'>
-            <div class='row'>
-              <div class='col-lg-12 col-md-12 col-sm-12'>
-                <h4 class='catagory_title_4'>
-                  এক&#2494;ড&#2503;ম&#2496;ক তথ&#2509;য
-                </h4>
-                <div class='news_information'>
-                  <img src=' http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu04.jpg'/>
-                  <div class='menu-academic-information-container'>
-                    <ul class='menu' id='menu-academic-information'>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-124' id='menu-item-124'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%95%e0%a6%95%e0%a7%8d%e0%a6%b7-%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be/'>কক&#2509;ষ স&#2434;খ&#2509;য&#2494;</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-125' id='menu-item-125'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a7%80%e0%a6%b0-%e0%a6%86%e0%a6%b8%e0%a6%a8-%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be/'>ছ&#2494;ত&#2509;রছ&#2494;ত&#2509;র&#2496;র আসন
-                          স&#2434;খ&#2509;য&#2494;</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-126' id='menu-item-126'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%9b%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be/'>ছ&#2497;ট&#2495;র ত&#2494;ল&#2495;ক&#2494;</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-128' id='menu-item-128'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%ae%e0%a6%be%e0%a6%b2%e0%a7%8d%e0%a6%9f%e0%a6%bf%e0%a6%ae%e0%a6%bf%e0%a6%a1%e0%a6%bf%e0%a7%9f%e0%a6%be-%e0%a6%95%e0%a7%8d%e0%a6%b2%e0%a6%be%e0%a6%b8%e0%a6%b0%e0%a7%81%e0%a6%ae/'>ম&#2494;ল&#2509;ট&#2495;ম&#2495;ড&#2495;য়&#2494;
-                          ক&#2509;ল&#2494;সর&#2497;ম</a>
-                      </li>
-                      <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-129' id='menu-item-129'>
-                        <a href='http://themesbazar.net/educational/%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a6%ac%e0%a6%be%e0%a6%b9%e0%a6%a8-%e0%a6%b8%e0%a7%81%e0%a6%ac%e0%a6%bf%e0%a6%a7%e0%a6%be/'>য&#2494;নব&#2494;হন স&#2497;ব&#2495;ধ&#2494;</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='row'>
-          <div class='col-md-12'>
-            <div class='add'/>
-          </div>
-        </div>
+        <button
+          class="carousel-control-prev"
+          data-bs-slide="prev"
+          data-bs-target="#carouselExampleCaptions"
+          type="button"
+        >
+          <span aria-hidden="true" class="carousel-control-prev-icon" />
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-slide="next"
+          data-bs-target="#carouselExampleCaptions"
+          type="button"
+        >
+          <span aria-hidden="true" class="carousel-control-next-icon" />
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
-      <div class='col-lg-3 col-md-3 col-sm-3'>
-        <div class='academy_information'>
-          <div class='menu-sidebar-container'>
-            <ul class='menu' id='menu-sidebar'>
-              <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-134' id='menu-item-134'>
-                <a href='http://themesbazar.net/educational/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%a4%e0%a6%a5%e0%a7%8d%e0%a6%af/'>ভর&#2509;ত&#2495; তথ&#2509;য</a>
-              </li>
-              <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-135' id='menu-item-135'>
-                <a href='http://themesbazar.net/educational/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%ab%e0%a6%b0%e0%a6%ae/'>ভর&#2509;ত&#2495; ফরম</a>
-              </li>
-              <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-131' id='menu-item-131'>
-                <a href='http://themesbazar.net/educational/%e0%a6%ab%e0%a6%9f%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%b0%e0%a7%80/'>ফট&#2507;গ&#2509;য&#2494;ল&#2494;র&#2496;</a>
-              </li>
-              <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-136' id='menu-item-136'>
-                <a href='http://themesbazar.net/educational/%e0%a6%ad%e0%a6%bf%e0%a6%a1%e0%a6%bf%e0%a6%93-%e0%a6%97%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%b0%e0%a7%80/'>ভ&#2495;ড&#2495;ও গ&#2509;য&#2494;ল&#2494;র&#2496;</a>
-              </li>
-            </ul>
+      <b:section id="notice-section" title="notice">
+        <b:widget
+          id="LinkList1"
+          locked="false"
+          title="নোটিশ"
+          type="LinkList"
+          version="1"
+        >
+          <b:widget-settings>
+            <b:widget-setting name="sorting">NONE</b:widget-setting>
+            <b:widget-setting name="text-1"
+              >আম&#2494;দ&#2503;র শ&#2495;ক&#2509;ষ&#2494;
+              প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2503; আপন&#2494;দ&#2503;র
+              স&#2509;ব&#2494;গতম&#2404;</b:widget-setting
+            >
+            <b:widget-setting name="link-1">#</b:widget-setting>
+            <b:widget-setting name="text-0"
+              >এই স&#2509;ক&#2497;ল&#2503;র ড&#2495;জ&#2494;ইনট&#2495;
+              ক&#2509;রয় করত&#2503; য&#2507;গ&#2494;য&#2507;গ কর&#2497;ন :
+              ০১৭৩২৬৬৭৩৬৪</b:widget-setting
+            >
+            <b:widget-setting name="link-0">#</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id="main">
+            <b:class name="d-flex" />
+            <b:if cond='data:title != ""'
+              ><div class="col-lg-2 col-md-2 col-sm-2 scrool_1">
+                <data:title /></div
+            ></b:if>
+            <div class="col-lg-10 col-md-10 col-sm-10 scrool_2">
+              <marquee
+                direction="left"
+                onmouseout="this.start()"
+                onmouseover="this.stop()"
+                scrollamount="4px"
+              >
+                <b:loop values="data:links" var="link">
+                  <i class="fa fa-stop-circle" />
+                  <a expr:href="data:link.target"><data:link.name /></a>
+                </b:loop>
+              </marquee>
+            </div>
+          </b:includable>
+        </b:widget>
+      </b:section>
+
+      <div class="row mt-5">
+        <div class="col-lg-9 col-md-9 col-sm-9">
+          <b:section class="row" id="History">
+            <b:widget
+              id="Image5"
+              locked="false"
+              title="প্রতিষ্ঠানের ইতিহাস"
+              type="Image"
+              version="1"
+            >
+              <b:widget-settings>
+                <b:widget-setting name="displayUrl"
+                  >https://lh3.googleusercontent.com/blogger_img_proxy/ABLy4ExOapMs7Fn8I_x85MyeGrKJ-wWUoQ20QWItwtkrliFVNGXeFORBzzGKLiMKmtNXIGao0H2Eebaf72vu-LEydeuiR1rQgV2VWd_MwooDpaVPtln_K2dPSGKP7jBTocGlFNrLGuBE7D8=s741-d</b:widget-setting
+                >
+                <b:widget-setting name="displayHeight">320</b:widget-setting>
+                <b:widget-setting name="sectionWidth">1615</b:widget-setting>
+                <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                <b:widget-setting name="displayWidth">741</b:widget-setting>
+                <b:widget-setting name="link">/p/history.html</b:widget-setting>
+                <b:widget-setting name="caption"
+                  >স&#2497;ন&#2494;মগঞ&#2509;জ জ&#2503;ল&#2494;ধ&#2496;ন
+                  জগন&#2509;ন&#2494;থপ&#2497;রস&#2509;থ এক
+                  প&#2509;র&#2494;চ&#2496;ন জনপদ&#2503;র ন&#2494;ম
+                  ইসহ&#2494;কপ&#2497;র &#2404; এ গ&#2509;র&#2494;ম&#2503;র
+                  সম&#2509;ভ&#2509;র&#2494;ন&#2509;ত ধর&#2509;মভ&#2496;র&#2497;
+                  ম&#2497;সল&#2495;ম পর&#2495;ব&#2494;র সম&#2498;হ&#2503;র
+                  মধ&#2509;য&#2503; শ&#2496;র&#2509;ষস&#2509;থ&#2494;ন&#2503;
+                  অবস&#2509;থ&#2494;ন খ&#2494;ন পর&#2495;ব&#2494;র&#2503;র
+                  &#2404; ব&#2434;শমর&#2509;য&#2494;দ&#2494;য় য&#2503;মন
+                  শ&#2509;র&#2503;ষ&#2509;ঠত&#2509;ব&#2503;র
+                  দ&#2494;ব&#2496;দ&#2494;র ত&#2503;মন&#2495;
+                  শ&#2495;ক&#2509;ষ&#2494;-দ&#2496;ক&#2509;ষ&#2494;য়,
+                  ধর&#2509;মভ&#2496;র&#2497;ত&#2494;য়.স&#2494;ম&#2494;জ&#2495;ক
+                  আচ&#2494;র-অন&#2497;ষ&#2509;ঠ&#2494;ন&#2503; এ জনপদ&#2503;র
+                  অন&#2509;য সব&#2503;র উপর রয়&#2503;ছ&#2503; এ
+                  পর&#2495;ব&#2494;র&#2503;র অত&#2497;লন&#2496;য়
+                  সম&#2509;ম&#2494;ন&#2404; যতদ&#2498;র জ&#2494;ন&#2494;
+                  য&#2494;য় মরহ&#2497;ম দ&#2503;লওয়&#2494;র খ&#2494;ন
+                  ছ&#2495;ল&#2503;ন এ পর&#2495;ব&#2494;র&#2503;র একজন
+                  শ&#2495;ক&#2509;ষ&#2495;ত ব&#2509;যক&#2509;ত&#2495;
+                  &#2404;ত&#2495;ন&#2495; য&#2503;মন
+                  ছ&#2495;ল&#2503;ন</b:widget-setting
+                >
+              </b:widget-settings>
+              <b:includable id="main">
+                <b:class name="col-lg-12 col-md-12 col-sm-12" />
+                <h4 class="catagory_title">
+                  <b:if cond='data:title != ""'><data:title /></b:if>
+                </h4>
+                <div class="History">
+                  <img
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    expr:alt="data:title"
+                    expr:id='data:widget.instanceId + "_img"'
+                    expr:src="data:sourceUrl"
+                    height="320"
+                    sizes="(max-width: 741px) 100vw, 741px"
+                    width="741"
+                  />
+                  <p>
+                    <b:if cond="data:caption">
+                      <span class="caption"><data:caption /></span>
+                    </b:if>
+                    <a class="readmore" expr:href="data:link">
+                      <span style="text-align: right"
+                        >ব&#2495;স&#2509;ত&#2494;র&#2495;ত...</span
+                      ></a
+                    >
+                  </p>
+                </div>
+              </b:includable>
+            </b:widget>
+          </b:section>
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h4 class="catagory_title">
+                অধ&#2509;যক&#2509;ষ&#2503;র ব&#2494;ণ&#2496;
+              </h4>
+
+              <div class="profile">
+                <img
+                  alt=""
+                  class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                  height="500"
+                  src="http://themesbazar.net/educational/wp-content/uploads/2018/04/12.gif"
+                  width="400"
+                />
+                <p>
+                  ম&#2494;ধ&#2509;যম&#2495;ক ও উচ&#2509;চ
+                  ম&#2494;ধ&#2509;যম&#2495;ক শ&#2495;ক&#2509;ষ&#2494;
+                  ব&#2507;র&#2509;ড, যশ&#2507;র জনগণ&#2503;র
+                  দ&#2507;রগ&#2507;ড়&#2494;য় শ&#2495;ক&#2509;ষ&#2494;
+                  স&#2503;ব&#2494; প&#2508;&#2433;ছ&#2503; দ&#2503;ব&#2494;র
+                  লক&#2509;ষ&#2509;য&#2503; য&#2494;বত&#2496;য়
+                  ক&#2494;র&#2509;য&#2494;দ&#2496; সম&#2509;প&#2494;দন
+                  ড&#2495;জ&#2495;ট&#2494;ল প&#2509;রয&#2497;ক&#2509;ত&#2495;
+                  ব&#2509;যবহ&#2494;র ও যশ&#2507;র
+                  শ&#2495;ক&#2509;ষ&#2494;ব&#2507;র&#2509;ড&#2503;র অধ&#2496;ন
+                  সকল প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2503;র তথ&#2509;য
+                  অনল&#2494;ইন&#2503; প&#2509;র&#2503;রণ&#2503;র
+                  ব&#2509;যবস&#2509;থ&#2494; ন&#2503;ওয়&#2494; হয়&#2503;ছ&#2503;
+                  জ&#2503;ন&#2503; আম&#2495; আনন&#2509;দ&#2495;ত&#2404;
+                  ব&#2499;ট&#2495;শ ঔপন&#2495;ব&#2503;শ&#2495;ক আমল&#2503;
+                  মহৎপ&#2509;র&#2494;ণ ব&#2509;যক&#2509;ত&#2495;
+                  ব&#2494;ব&#2497; মথ&#2497;র&#2494;ন&#2494;থ
+                  ক&#2497;ন&#2509;ড&#2497; মহ&#2494;শয়&#2503;র
+                  প&#2509;রচ&#2503;ষ&#2509;ট&#2494;য় ১৮৫৬
+                  খ&#2509;র&#2495;&#2435; প&#2509;রত&#2495;ষ&#2509;ঠ&#2495;ত
+                  হয়&#2503;ছ&#2495;ল ঐত&#2495;হ&#2509;যব&#2494;হ&#2496;
+                  ক&#2497;ম&#2494;রখ&#2494;ল&#2496; এম এন প&#2494;ইলট
+                  (মড&#2503;ল)
+                  <a
+                    class="readmore"
+                    href="http://themesbazar.net/educational/speech-one/%e0%a6%85%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/ "
+                  /><span style="text-align: right"
+                    ><a
+                      href="http://themesbazar.net/educational/speech-one/%e0%a6%85%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/"
+                      >ব&#2495;স&#2509;ত&#2494;র&#2495;ত...</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h4 class="catagory_title">
+                উপধ&#2509;যক&#2509;ষ&#2503;র ব&#2494;ণ&#2496;
+              </h4>
+
+              <div class="profile">
+                <img
+                  alt=""
+                  class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                  height="500"
+                  src="http://themesbazar.net/educational/wp-content/uploads/2018/04/08.gif"
+                  width="400"
+                />
+                <p>
+                  ব&#2494;&#2434;ল&#2494;দ&#2503;শ&#2503;র
+                  শ&#2495;ক&#2509;ষ&#2494; ব&#2509;যবস&#2509;থ&#2494;র
+                  একট&#2495; প&#2498;র&#2509;ণ&#2494;ঙ&#2509;গ ধ&#2494;র&#2494;
+                  ম&#2494;দর&#2494;স&#2494; শ&#2495;ক&#2509;ষ&#2494;&#2404;
+                  স&#2494;ধ&#2494;রণ শ&#2495;ক&#2509;ষ&#2494;র
+                  প&#2494;শপ&#2494;শ&#2495;
+                  সম&#2494;ন&#2509;তর&#2494;লভ&#2494;ব&#2503; এট&#2495;
+                  বয়&#2503; চল&#2503;ছ&#2503; দ&#2496;র&#2509;ঘদ&#2495;ন
+                  ধর&#2503; এব&#2434; এ দ&#2503;শ&#2503;র জন-ম&#2494;নস&#2503;
+                  ত&#2494;র স&#2509;থ&#2494;ন কর&#2503; ন&#2495;য়&#2503;ছ&#2503;
+                  স&#2497;রক&#2509;ষ&#2495;ত ও
+                  স&#2497;দ&#2499;ঢ়ভ&#2494;ব&#2503;&#2404; ধর&#2509;ম&#2496;য়
+                  শ&#2495;ক&#2509;ষ&#2494; ও জ&#2494;গত&#2495;ক
+                  শ&#2495;ক&#2509;ষ&#2494; দ&#2497;ট&#2495; পরস&#2509;পর&#2503;র
+                  পর&#2495;প&#2497;রক&#2404; এ সমন&#2509;ব&#2495;ত
+                  ইসল&#2494;ম&#2496; শ&#2495;ক&#2509;ষ&#2494;
+                  ব&#2509;যবস&#2509;থ&#2494;র
+                  প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2495;ক র&#2497;পই
+                  হচ&#2509;ছ&#2503; ম&#2494;দর&#2494;স&#2494;
+                  শ&#2495;ক&#2509;ষ&#2494;&#2404; ইহল&#2508;ক&#2495;ক
+                  উন&#2509;নত&#2495;র স&#2494;থ&#2503; স&#2494;থ&#2503;
+                  প&#2494;রল&#2508;ক&#2495;ক ম&#2497;ক&#2509;ত&#2495;র পথ
+                  দ&#2503;খ&#2494;ত&#2503;ই প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;
+                  <a
+                    class="readmore"
+                    href="http://themesbazar.net/educational/speech-two/%e0%a6%89%e0%a6%aa%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/ "
+                  /><span style="text-align: right"
+                    ><a
+                      href="http://themesbazar.net/educational/speech-two/%e0%a6%89%e0%a6%aa%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%a3%e0%a7%80/"
+                      >ব&#2495;স&#2509;ত&#2494;র&#2495;ত...</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h4 class="catagory_title_1">
+                    ছ&#2494;ত&#2509;রছ&#2494;ত&#2509;র&#2496;দ&#2503;র
+                    তথ&#2509;য
+                  </h4>
+                  <div class="news_information">
+                    <img
+                      src=" http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu01.jpg"
+                    />
+                    <div class="menu-student-information-container">
+                      <ul class="menu" id="menu-student-information">
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"
+                          id="menu-item-115"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a7%80%e0%a6%b0-%e0%a6%86%e0%a6%b8%e0%a6%a8-%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be/"
+                            >ছ&#2494;ত&#2509;রছ&#2494;ত&#2509;র&#2496;র আসন
+                            স&#2434;খ&#2509;য&#2494;</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"
+                          id="menu-item-117"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%a4%e0%a6%a5%e0%a7%8d%e0%a6%af/"
+                            >ভর&#2509;ত&#2495; তথ&#2509;য</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"
+                          id="menu-item-116"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%a8%e0%a7%8b%e0%a6%9f%e0%a6%bf%e0%a6%b6/"
+                            >ন&#2507;ট&#2495;শ</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"
+                          id="menu-item-118"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%a8/"
+                            >র&#2497;ট&#2495;ন</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"
+                          id="menu-item-114"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/category/%e0%a6%95%e0%a7%83%e0%a6%a4%e0%a6%bf-%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%a5%e0%a7%80/"
+                            >ক&#2499;ত&#2495;
+                            শ&#2495;ক&#2509;ষ&#2494;র&#2509;থ&#2496;</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h4 class="catagory_title_2">
+                    শ&#2495;ক&#2509;ষকদ&#2503;র তথ&#2509;য
+                  </h4>
+                  <div class="news_information">
+                    <img
+                      src=" http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu02.jpg"
+                    />
+                    <div class="menu-teachers-information-container">
+                      <ul class="menu" id="menu-teachers-information">
+                        <li
+                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-120"
+                          id="menu-item-120"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/category/%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%95%e0%a6%ac%e0%a7%83%e0%a6%a8%e0%a7%8d%e0%a6%a6/"
+                            >শ&#2495;ক&#2509;ষকব&#2499;ন&#2509;দ</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"
+                          id="menu-item-121"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%b6%e0%a7%82%e0%a6%a3%e0%a7%8d%e0%a6%af%e0%a6%aa%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be/"
+                            >শ&#2498;ণ&#2509;যপদ&#2503;র
+                            ত&#2494;ল&#2495;ক&#2494;</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119"
+                          id="menu-item-119"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/category/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%95%e0%a7%8d%e0%a6%a4%e0%a6%a8-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a7%e0%a6%be%e0%a6%a8-%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%95/"
+                            >প&#2509;র&#2494;ক&#2509;তন প&#2509;রধ&#2494;ন
+                            শ&#2495;ক&#2509;ষক</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-122"
+                          id="menu-item-122"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/category/%e0%a6%95%e0%a6%b0%e0%a7%8d%e0%a6%ae%e0%a6%95%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be-%e0%a6%95%e0%a6%b0%e0%a7%8d%e0%a6%ae%e0%a6%9a%e0%a6%be%e0%a6%b0%e0%a7%80/"
+                            >কর&#2509;মকর&#2509;ত&#2494;
+                            কর&#2509;মচ&#2494;র&#2496;</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-123"
+                          id="menu-item-123"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/category/%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%9a%e0%a6%be%e0%a6%b2%e0%a6%a8%e0%a6%be-%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%b7%e0%a6%a6/"
+                            >পর&#2495;চ&#2494;লন&#2494; পর&#2495;ষদ</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h4 class="catagory_title_3">ড&#2494;উনল&#2507;ড</h4>
+                  <div class="news_information">
+                    <img
+                      src=" http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu03.jpg"
+                    />
+                    <ul>
+                      <li>
+                        <a
+                          href="http://themesbazar.net/educational/download/%e0%a7%a7%e0%a6%ae-%e0%a6%b8%e0%a6%be%e0%a6%ae%e0%a7%9f%e0%a6%bf%e0%a6%95%e0%a6%bf-%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf/"
+                          >১ম স&#2494;ময়&#2495;ক&#2495;
+                          পর&#2496;ক&#2509;ষ&#2494;র র&#2497;ট&#2495;ন
+                          ড&#2494;উনল&#2507;ড</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="http://themesbazar.net/educational/download/%e0%a6%8f%e0%a6%b8%e0%a6%8f%e0%a6%b8%e0%a6%b8%e0%a6%bf-%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%a8-%e0%a6%a1%e0%a6%be/"
+                          >এসএসস&#2495; পর&#2496;ক&#2509;ষ&#2494;র
+                          র&#2497;ট&#2495;ন ড&#2494;উনল&#2507;ড</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="http://themesbazar.net/educational/download/%e0%a6%9b%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%b0-%e0%a6%a8%e0%a7%8b%e0%a6%9f%e0%a6%bf%e0%a6%b6-%e0%a6%a1%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a6%b2%e0%a7%8b%e0%a6%a1/"
+                          >ছ&#2497;ট&#2495;র ন&#2507;ট&#2495;শ
+                          ড&#2494;উনল&#2507;ড</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="http://themesbazar.net/educational/download/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%ab%e0%a6%b0%e0%a6%ae-%e0%a6%a1%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a6%b2%e0%a7%8b%e0%a6%a1-2/"
+                          >ভর&#2509;ত&#2495; ফরম ড&#2494;উনল&#2507;ড</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="http://themesbazar.net/educational/download/%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a6%b0-%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%a8-%e0%a6%a1%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a6%b2%e0%a7%8b%e0%a6%a1/"
+                          >পর&#2496;ক&#2509;ষ&#2494;র র&#2497;ট&#2495;ন
+                          ড&#2494;উনল&#2507;ড</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h4 class="catagory_title_4">
+                    এক&#2494;ড&#2503;ম&#2496;ক তথ&#2509;য
+                  </h4>
+                  <div class="news_information">
+                    <img
+                      src=" http://themesbazar.net/educational/wp-content/themes/educationaltheme/images/menu04.jpg"
+                    />
+                    <div class="menu-academic-information-container">
+                      <ul class="menu" id="menu-academic-information">
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"
+                          id="menu-item-124"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%95%e0%a6%95%e0%a7%8d%e0%a6%b7-%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be/"
+                            >কক&#2509;ষ স&#2434;খ&#2509;য&#2494;</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"
+                          id="menu-item-125"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a6%9b%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a7%80%e0%a6%b0-%e0%a6%86%e0%a6%b8%e0%a6%a8-%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be/"
+                            >ছ&#2494;ত&#2509;রছ&#2494;ত&#2509;র&#2496;র আসন
+                            স&#2434;খ&#2509;য&#2494;</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"
+                          id="menu-item-126"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%9b%e0%a7%81%e0%a6%9f%e0%a6%bf%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be/"
+                            >ছ&#2497;ট&#2495;র ত&#2494;ল&#2495;ক&#2494;</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128"
+                          id="menu-item-128"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%ae%e0%a6%be%e0%a6%b2%e0%a7%8d%e0%a6%9f%e0%a6%bf%e0%a6%ae%e0%a6%bf%e0%a6%a1%e0%a6%bf%e0%a7%9f%e0%a6%be-%e0%a6%95%e0%a7%8d%e0%a6%b2%e0%a6%be%e0%a6%b8%e0%a6%b0%e0%a7%81%e0%a6%ae/"
+                            >ম&#2494;ল&#2509;ট&#2495;ম&#2495;ড&#2495;য়&#2494;
+                            ক&#2509;ল&#2494;সর&#2497;ম</a
+                          >
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"
+                          id="menu-item-129"
+                        >
+                          <a
+                            href="http://themesbazar.net/educational/%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a6%ac%e0%a6%be%e0%a6%b9%e0%a6%a8-%e0%a6%b8%e0%a7%81%e0%a6%ac%e0%a6%bf%e0%a6%a7%e0%a6%be/"
+                            >য&#2494;নব&#2494;হন স&#2497;ব&#2495;ধ&#2494;</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="add" />
+            </div>
           </div>
         </div>
 
-        <h4 class='catagory_title_5'>ন&#2507;ট&#2495;শ ব&#2507;র&#2509;ড</h4>
-        <div class='notice_box'>
-          <marquee direction='up' onmouseout='this.start()' onmouseover='this.stop()' scrollamount='3px'>
-            <ul>
-              <li>
-                <a href='http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%97%e0%a6%be%e0%a6%ae%e0%a7%80-%e0%a6%a8%e0%a6%bf%e0%a6%b0%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%9a%e0%a6%a8%e0%a7%80-%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be/'>আগ&#2494;ম&#2496; ন&#2495;র&#2509;ব&#2494;চন&#2496;
-                  পর&#2496;ক&#2509;ষ&#2494; ৩১ ম&#2494;র&#2509;চ&#2503;র
-                  পর&#2495;বর&#2509;ত&#2503; ৫ জ&#2497;ন
-                  অন&#2497;ষ&#2509;ঠ&#2495;ত হব&#2503;</a>
-              </li>
-
-              <li>
-                <a href='http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%97%e0%a6%be%e0%a6%ae%e0%a7%80-%e0%a7%a7%e0%a7%a8-%e0%a6%8f%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b2-%e0%a6%ac%e0%a6%bf%e0%a6%9c%e0%a7%8d%e0%a6%9e%e0%a6%be%e0%a6%a8-%e0%a6%ac/'>আগ&#2494;ম&#2496; ১২ এপ&#2509;র&#2495;ল
-                  ব&#2495;জ&#2509;ঞ&#2494;ন ব&#2495;ভ&#2494;গ&#2503;র
-                  পর&#2496;ক&#2509;ষ&#2494;</a>
-              </li>
-
-              <li>
-                <a href='http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%97%e0%a6%be%e0%a6%ae%e0%a7%80-%e0%a7%a9%e0%a7%a7-%e0%a6%ae%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a%e0%a7%87%e0%a6%b0-%e0%a6%ae%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a7%87-%e0%a6%b8%e0%a6%95/'>আগ&#2494;ম&#2496; ৩১ ম&#2494;র&#2509;চ&#2503;র
-                  মধ&#2509;য&#2503; সকল ফ&#2495; পর&#2495;শ&#2507;ধ করত&#2503;
-                  হব&#2503;</a>
-              </li>
-
-              <li>
-                <a href='http://themesbazar.net/educational/notice/%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%81%e0%a6%b2%e0%a7%87%e0%a6%b0-%e0%a6%ad%e0%a6%bf%e0%a6%a4%e0%a6%b0-%e0%a6%ae%e0%a7%8b%e0%a6%ac%e0%a6%be%e0%a6%87%e0%a6%b2-%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%ac/'>স&#2509;ক&#2497;ল&#2503;র ভ&#2495;তর ম&#2507;ব&#2494;ইল
-                  ব&#2509;যবহ&#2494;র কর&#2494; সম&#2509;প&#2498;র&#2509;ণ
-                  ন&#2495;ষ&#2503;ধ</a>
-              </li>
-
-              <li>
-                <a href='http://themesbazar.net/educational/notice/%e0%a6%8f%e0%a6%87-%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%81%e0%a6%b2%e0%a7%87%e0%a6%b0-%e0%a6%a1%e0%a6%bf%e0%a6%9c%e0%a6%be%e0%a6%87%e0%a6%a8%e0%a6%9f%e0%a6%bf-%e0%a6%95%e0%a7%8d%e0%a6%b0%e0%a7%9f/'>এই স&#2509;ক&#2497;ল&#2503;র ড&#2495;জ&#2494;ইনট&#2495;
-                  ক&#2509;রয় করত&#2503; য&#2507;গ&#2494;য&#2507;গ কর&#2497;ন :
-                  ০১৭৩২৬৬৭৩৬৪</a>
-              </li>
-
-              <li>
-                <a href='http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%ae%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a4%e0%a6%bf%e0%a6%b7%e0%a7%8d%e0%a6%a0%e0%a6%be%e0%a6%a8/'>আম&#2494;দ&#2503;র শ&#2495;ক&#2509;ষ&#2494;
-                  প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2503; আপন&#2494;দ&#2503;র
-                  স&#2509;ব&#2494;গতম</a>
-              </li>
-            </ul>
-          </marquee>
-        </div>
-
-        <div class='facebook_title'>
-          <a href='#'>ফ&#2503;ইজব&#2497;ক প&#2503;জ</a>
-        </div>
-        <div class='fb-root'>
-          <script>
-            (function (d, s, id) {
-              var js,
-                fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s);
-              js.id = id;
-              js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5&quot;;
-              fjs.parentNode.insertBefore(js, fjs);
-            })(document, &quot;script&quot;, &quot;facebook-jssdk&quot;);
-          </script>
-          <div class='fb-page fb_iframe_widget fb_iframe_widget_fluid' data-adapt-container-width='true' data-height='120' data-hide-cover='false' data-href='https://www.facebook.com/themesbazar' data-show-facepile='true' data-small-header='true' data-tabs='timeline' data-width='390' fb-iframe-plugin-query='adapt_container_width=true&amp;app_id=&amp;container_width=213&amp;height=120&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fthemesbazar&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=390' fb-xfbml-state='rendered'>
-            <span style='vertical-align: bottom; width: 213px; height: 120px'><iframe allow='encrypted-media' allowfullscreen='true' allowtransparency='true' class='' data-testid='fb:page Facebook Social Plugin' frameborder='0' height='120px' name='f3f5e8ee916ec74' scrolling='no' src='https://web.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfd9f3c01f516b%26domain%3Dthemesbazar.net%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fthemesbazar.net%252Ff64ac13b45bc5%26relation%3Dparent.parent&amp;container_width=213&amp;height=120&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fthemesbazar&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=390' style='                   border: none;                   visibility: visible;                   width: 213px;                   height: 120px;                 ' title='fb:page Facebook Social Plugin' width='390px'/></span>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="academy_information">
+            <div class="menu-sidebar-container">
+              <ul class="menu" id="menu-sidebar">
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134"
+                  id="menu-item-134"
+                >
+                  <a
+                    href="http://themesbazar.net/educational/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%a4%e0%a6%a5%e0%a7%8d%e0%a6%af/"
+                    >ভর&#2509;ত&#2495; তথ&#2509;য</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"
+                  id="menu-item-135"
+                >
+                  <a
+                    href="http://themesbazar.net/educational/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%ab%e0%a6%b0%e0%a6%ae/"
+                    >ভর&#2509;ত&#2495; ফরম</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"
+                  id="menu-item-131"
+                >
+                  <a
+                    href="http://themesbazar.net/educational/%e0%a6%ab%e0%a6%9f%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%b0%e0%a7%80/"
+                    >ফট&#2507;গ&#2509;য&#2494;ল&#2494;র&#2496;</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"
+                  id="menu-item-136"
+                >
+                  <a
+                    href="http://themesbazar.net/educational/%e0%a6%ad%e0%a6%bf%e0%a6%a1%e0%a6%bf%e0%a6%93-%e0%a6%97%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%b0%e0%a7%80/"
+                    >ভ&#2495;ড&#2495;ও গ&#2509;য&#2494;ল&#2494;র&#2496;</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class='row'>
-          <div class='col-md-12'>
-            <div class='add'/>
+          <h4 class="catagory_title_5">ন&#2507;ট&#2495;শ ব&#2507;র&#2509;ড</h4>
+          <div class="notice_box">
+            <marquee
+              direction="up"
+              onmouseout="this.start()"
+              onmouseover="this.stop()"
+              scrollamount="3px"
+            >
+              <ul>
+                <li>
+                  <a
+                    href="http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%97%e0%a6%be%e0%a6%ae%e0%a7%80-%e0%a6%a8%e0%a6%bf%e0%a6%b0%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%9a%e0%a6%a8%e0%a7%80-%e0%a6%aa%e0%a6%b0%e0%a7%80%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be/"
+                    >আগ&#2494;ম&#2496; ন&#2495;র&#2509;ব&#2494;চন&#2496;
+                    পর&#2496;ক&#2509;ষ&#2494; ৩১ ম&#2494;র&#2509;চ&#2503;র
+                    পর&#2495;বর&#2509;ত&#2503; ৫ জ&#2497;ন
+                    অন&#2497;ষ&#2509;ঠ&#2495;ত হব&#2503;</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%97%e0%a6%be%e0%a6%ae%e0%a7%80-%e0%a7%a7%e0%a7%a8-%e0%a6%8f%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b2-%e0%a6%ac%e0%a6%bf%e0%a6%9c%e0%a7%8d%e0%a6%9e%e0%a6%be%e0%a6%a8-%e0%a6%ac/"
+                    >আগ&#2494;ম&#2496; ১২ এপ&#2509;র&#2495;ল
+                    ব&#2495;জ&#2509;ঞ&#2494;ন ব&#2495;ভ&#2494;গ&#2503;র
+                    পর&#2496;ক&#2509;ষ&#2494;</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%97%e0%a6%be%e0%a6%ae%e0%a7%80-%e0%a7%a9%e0%a7%a7-%e0%a6%ae%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%9a%e0%a7%87%e0%a6%b0-%e0%a6%ae%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a7%87-%e0%a6%b8%e0%a6%95/"
+                    >আগ&#2494;ম&#2496; ৩১ ম&#2494;র&#2509;চ&#2503;র
+                    মধ&#2509;য&#2503; সকল ফ&#2495; পর&#2495;শ&#2507;ধ করত&#2503;
+                    হব&#2503;</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://themesbazar.net/educational/notice/%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%81%e0%a6%b2%e0%a7%87%e0%a6%b0-%e0%a6%ad%e0%a6%bf%e0%a6%a4%e0%a6%b0-%e0%a6%ae%e0%a7%8b%e0%a6%ac%e0%a6%be%e0%a6%87%e0%a6%b2-%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%ac/"
+                    >স&#2509;ক&#2497;ল&#2503;র ভ&#2495;তর ম&#2507;ব&#2494;ইল
+                    ব&#2509;যবহ&#2494;র কর&#2494; সম&#2509;প&#2498;র&#2509;ণ
+                    ন&#2495;ষ&#2503;ধ</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://themesbazar.net/educational/notice/%e0%a6%8f%e0%a6%87-%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%81%e0%a6%b2%e0%a7%87%e0%a6%b0-%e0%a6%a1%e0%a6%bf%e0%a6%9c%e0%a6%be%e0%a6%87%e0%a6%a8%e0%a6%9f%e0%a6%bf-%e0%a6%95%e0%a7%8d%e0%a6%b0%e0%a7%9f/"
+                    >এই স&#2509;ক&#2497;ল&#2503;র ড&#2495;জ&#2494;ইনট&#2495;
+                    ক&#2509;রয় করত&#2503; য&#2507;গ&#2494;য&#2507;গ কর&#2497;ন :
+                    ০১৭৩২৬৬৭৩৬৪</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://themesbazar.net/educational/notice/%e0%a6%86%e0%a6%ae%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%b6%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a4%e0%a6%bf%e0%a6%b7%e0%a7%8d%e0%a6%a0%e0%a6%be%e0%a6%a8/"
+                    >আম&#2494;দ&#2503;র শ&#2495;ক&#2509;ষ&#2494;
+                    প&#2509;রত&#2495;ষ&#2509;ঠ&#2494;ন&#2503;
+                    আপন&#2494;দ&#2503;র স&#2509;ব&#2494;গতম</a
+                  >
+                </li>
+              </ul>
+            </marquee>
           </div>
-        </div>
 
-        <h4 class='catagory_title_5'>
-          অফ&#2495;স&#2495;য়&#2494;ল ল&#2495;&#2434;ক
-        </h4>
-
-        <div class='notice_box'>
-          <div class='menu-official-link-container'>
-            <ul class='menu' id='menu-official-link'>
-              <li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-137' id='menu-item-137'>
-                <a href='http://www.moedu.gov.bd/'>শ&#2495;ক&#2509;ষ&#2494; মন&#2509;ত&#2509;রণ&#2494;লয়</a>
-              </li>
-              <li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-138' id='menu-item-138'>
-                <a href='http://www.educationboardresults.gov.bd/'>এসএসস&#2495;/এইচএসস&#2495; ফল&#2494;ফল</a>
-              </li>
-              <li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-139' id='menu-item-139'>
-                <a href='http://banbeis.gov.bd/new/'>ব&#2509;য&#2494;নব&#2503;ইজ</a>
-              </li>
-              <li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-140' id='menu-item-140'>
-                <a href='http://www.seqaep.gov.bd/'>স&#2503;ক&#2494;য়&#2503;প</a>
-              </li>
-            </ul>
+          <div class="facebook_title">
+            <a href="#">ফ&#2503;ইজব&#2497;ক প&#2503;জ</a>
           </div>
-        </div>
+          <div class="fb-root">
+            <script>
+              (function (d, s, id) {
+                var js,
+                  fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5&quot;;
+                fjs.parentNode.insertBefore(js, fjs);
+              })(document, &quot;script&quot;, &quot;facebook-jssdk&quot;);
+            </script>
+            <div
+              class="fb-page fb_iframe_widget fb_iframe_widget_fluid"
+              data-adapt-container-width="true"
+              data-height="120"
+              data-hide-cover="false"
+              data-href="https://www.facebook.com/themesbazar"
+              data-show-facepile="true"
+              data-small-header="true"
+              data-tabs="timeline"
+              data-width="390"
+              fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=213&amp;height=120&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fthemesbazar&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=390"
+              fb-xfbml-state="rendered"
+            >
+              <span style="vertical-align: bottom; width: 213px; height: 120px"
+                ><iframe
+                  allow="encrypted-media"
+                  allowfullscreen="true"
+                  allowtransparency="true"
+                  class=""
+                  data-testid="fb:page Facebook Social Plugin"
+                  frameborder="0"
+                  height="120px"
+                  name="f3f5e8ee916ec74"
+                  scrolling="no"
+                  src="https://web.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfd9f3c01f516b%26domain%3Dthemesbazar.net%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fthemesbazar.net%252Ff64ac13b45bc5%26relation%3Dparent.parent&amp;container_width=213&amp;height=120&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fthemesbazar&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=390"
+                  style="
+                    border: none;
+                    visibility: visible;
+                    width: 213px;
+                    height: 120px;
+                  "
+                  title="fb:page Facebook Social Plugin"
+                  width="390px"
+              /></span>
+            </div>
+          </div>
 
-        <h4 class='catagory_title_5'>
-          গ&#2497;র&#2497;ত&#2509;বপ&#2498;র&#2509;ণ তথ&#2509;য
-        </h4>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="add" />
+            </div>
+          </div>
 
-        <div class='notice_box'>
-          <div class='menu-important-link-container'>
-            <ul class='menu' id='menu-important-link'>
-              <li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-142' id='menu-item-142'>
-                <a href='http://www.ebook.gov.bd/'>ই-ব&#2497;ক</a>
-              </li>
-              <li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-143' id='menu-item-143'>
-                <a href='https://www.teachers.gov.bd/'>শ&#2495;ক&#2509;ষক ব&#2494;ত&#2494;য়ন</a>
-              </li>
-              <li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-144' id='menu-item-144'>
-                <a href='http://mmc.e-service.gov.bd/'>ম&#2494;ল&#2509;ট&#2495;ম&#2495;ড&#2495;য়&#2494;
-                  ক&#2509;ল&#2494;সর&#2497;ম
-                  ম&#2509;য&#2494;ন&#2503;জম&#2503;ন&#2509;ট</a>
-              </li>
-            </ul>
+          <h4 class="catagory_title_5">
+            অফ&#2495;স&#2495;য়&#2494;ল ল&#2495;&#2434;ক
+          </h4>
+
+          <div class="notice_box">
+            <div class="menu-official-link-container">
+              <ul class="menu" id="menu-official-link">
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"
+                  id="menu-item-137"
+                >
+                  <a href="http://www.moedu.gov.bd/"
+                    >শ&#2495;ক&#2509;ষ&#2494; মন&#2509;ত&#2509;রণ&#2494;লয়</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138"
+                  id="menu-item-138"
+                >
+                  <a href="http://www.educationboardresults.gov.bd/"
+                    >এসএসস&#2495;/এইচএসস&#2495; ফল&#2494;ফল</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139"
+                  id="menu-item-139"
+                >
+                  <a href="http://banbeis.gov.bd/new/"
+                    >ব&#2509;য&#2494;নব&#2503;ইজ</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140"
+                  id="menu-item-140"
+                >
+                  <a href="http://www.seqaep.gov.bd/"
+                    >স&#2503;ক&#2494;য়&#2503;প</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <h4 class="catagory_title_5">
+            গ&#2497;র&#2497;ত&#2509;বপ&#2498;র&#2509;ণ তথ&#2509;য
+          </h4>
+
+          <div class="notice_box">
+            <div class="menu-important-link-container">
+              <ul class="menu" id="menu-important-link">
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142"
+                  id="menu-item-142"
+                >
+                  <a href="http://www.ebook.gov.bd/">ই-ব&#2497;ক</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-143"
+                  id="menu-item-143"
+                >
+                  <a href="https://www.teachers.gov.bd/"
+                    >শ&#2495;ক&#2509;ষক ব&#2494;ত&#2494;য়ন</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-144"
+                  id="menu-item-144"
+                >
+                  <a href="http://mmc.e-service.gov.bd/"
+                    >ম&#2494;ল&#2509;ট&#2495;ম&#2495;ড&#2495;য়&#2494;
+                    ক&#2509;ল&#2494;সর&#2497;ম
+                    ম&#2509;য&#2494;ন&#2503;জম&#2503;ন&#2509;ট</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
+    <div class="container-fluid section_2">
+      <div class="root container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 root_01">
+            All Rights Reserevd by Aishik Rehman
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 social-link">
+            <ul>
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fa fa-facebook" target="_blank"
+                /></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"> <i class="fa fa-twitter" /></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"> <i class="fa fa-google-plus" /></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-rss" target="_blank" /></a>
+              </li>
+            </ul>
+          </div>
 
-  <div class='container-fluid section_2'>
-			<div class='root container'>
-				<div class='row '>	
-					<div class='col-lg-4 col-md-4 col-sm-4 root_01'>
-						All Rights Reserevd by Aishik Rehman
-                  </div>
-					<div class='col-lg-4 col-md-4 col-sm-4 social-link'>
-						<ul>
-							<li><a href='#' target='_blank'> <i class='fa fa-facebook' target='_blank'/></a></li>
-							<li><a href='#' target='_blank'> <i class='fa fa-twitter'/></a></li>
-							<li><a href='#' target='_blank'> <i class='fa fa-google-plus'/></a></li>
-							<li><a href='#'><i class='fa fa-rss' target='_blank'/></a></li>
-						</ul>
-					</div>
+          <div class="col-lg-4 col-md-4 col-sm-4 root_02">
+            Design &amp; Developed BY
+            <a href="#" target="_blank">Aishik Rehman</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-					<div class='col-lg-4 col-md-4 col-sm-4 root_02'>
-						Design &amp; Developed BY <a href='#' target='_blank'>Aishik Rehman</a>
-                  </div>
-				</div>	
-			</div>
-		</div>	
-    
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" />
   </body>
-  
-  </html>
+</html>
