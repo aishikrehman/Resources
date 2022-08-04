@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Tatsam;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    unicode-range: U+0980-09FF;
+    src: 	url(https://raw.githubusercontent.com/aishikrehman/resources/main/web-fonts/bn/tatsam_bengali/tatsam_bengali.woff2) format(&#39;woff2&#39;),
+          url(https://raw.githubusercontent.com/aishikrehman/resources/main/web-fonts/bn/tatsam_bengali/tatsam_bengali.woff) format(&quot;woff&quot;),
+          url(https://raw.githubusercontent.com/aishikrehman/resources/main/web-fonts/bn/tatsam_bengali/tatsam_bengali.otf) format(&quot;opentype&quot;);
+    }
