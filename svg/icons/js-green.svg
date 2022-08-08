@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="231.51584mm"
+   height="262.56427mm"
+   viewBox="0 0 231.51584 262.56427"
+   version="1.1"
+   id="svg48176"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="js-green.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview48178"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.3817305"
+     inkscape:cx="544.88703"
+     inkscape:cy="775.41616"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs48173">
+    <linearGradient
+       id="bs-logo-a-8"
+       x1="76.079002"
+       x2="523.47998"
+       y1="10.798"
+       y2="365.94501"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1122781,0,0,2.1122781,2192.298,-151.08087)">
+      <stop
+         stop-color="#9013fe"
+         id="stop474-3"
+         style="stop-color:#1e8b5a;stop-opacity:1" />
+      <stop
+         offset="1"
+         stop-color="#6610f2"
+         id="stop476-9"
+         style="stop-color:#006d5a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="bs-logo-b-0"
+       x1="193.508"
+       x2="293.51401"
+       y1="109.74"
+       y2="278.87201"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff"
+         id="stop479-3" />
+      <stop
+         offset="1"
+         stop-color="#f1e5fc"
+         id="stop481-5" />
+    </linearGradient>
+    <filter
+       id="bs-logo-c-7"
+       width="197"
+       height="249"
+       x="161.901"
+       y="83.457001"
+       color-interpolation-filters="sRGB"
+       filterUnits="userSpaceOnUse">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood484-1" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix486-2" />
+      <feOffset
+         dy="4"
+         id="feOffset488-4" />
+      <feGaussianBlur
+         stdDeviation="8"
+         id="feGaussianBlur490-3" />
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+         id="feColorMatrix492-6" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow"
+         id="feBlend494-7"
+         mode="normal" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect1_dropShadow"
+         result="shape"
+         id="feBlend496-0"
+         mode="normal" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(61.001791,-117.8929)">
+    <g
+       id="g44188"
+       inkscape:export-filename="C:\Users\User\Downloads\js-green.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="matrix(0.27949414,0,0,0.27949414,279.79009,-310.08823)">
+      <polygon
+         fill="#efc725"
+         points="284.127,401.205 162.318,434.975 40.845,401.254 13.775,97.632 311.225,97.632 "
+         id="polygon259-2"
+         transform="matrix(2.8105638,0,0,2.8105638,-1256.9315,1253.9872)"
+         style="fill:#006d5a;fill-opacity:1" />
+      <polygon
+         fill="#fbde34"
+         points="260.678,381.5 283.836,122.083 162.25,122.083 162.25,408.787 "
+         id="polygon261-5"
+         transform="matrix(2.8105638,0,0,2.8105638,-1256.9315,1253.9872)"
+         style="fill:#1e8b5a;fill-opacity:1" />
+      <polygon
+         fill="#ebebeb"
+         points="85.744,349.043 162.021,370.219 162.193,370.17 162.193,331.426 162.031,331.473 120.559,320.272 117.906,290.575 97.756,290.575 80.527,290.575 "
+         id="polygon263-8"
+         transform="matrix(2.8105638,0,0,2.8105638,-1256.9315,1253.9872)" />
+      <polygon
+         fill="#ebebeb"
+         points="167.209,271.937 167.209,234.7 121.355,234.7 126.732,176.258 167.312,175.177 167.209,136.454 93.065,136.454 90.311,163.903 81.559,261.938 80.651,271.937 90.686,271.937 "
+         id="polygon265-1"
+         transform="matrix(2.8105638,0,0,2.8105638,-1256.9315,1253.9872)" />
+      <polygon
+         fill="#ffffff"
+         points="242.109,144.133 167.129,136.437 166.957,136.485 166.957,175.229 167.12,175.183 207.791,177.632 211.242,216.079 231.393,216.079 248.623,216.079 "
+         id="polygon267-8"
+         transform="matrix(2.8105638,0,0,2.8105638,-1256.9315,1253.9872)" />
+      <polyline
+         fill="#ffffff"
+         points="244.784,175.343 241.593,136.454 162.99,136.454 162.99,160.606 162.99,175.246 162.99,175.343    244.784,175.343  "
+         id="polyline269-9"
+         transform="matrix(2.8105638,0,0,2.8105638,-1256.9315,1253.9872)" />
+      <polygon
+         fill="#ffffff"
+         points="162.064,234.718 162.064,271.954 207.918,271.954 203.596,320.247 162.064,331.459 162.064,370.201 238.404,349.043 238.963,342.752 247.715,244.717 248.623,234.718 238.588,234.718 "
+         id="polygon271-8"
+         transform="matrix(2.8105638,0,0,2.8105638,-1256.9315,1253.9872)" />
+      <path
+         fill="#ffffff"
+         d="M -582.39619,1742.1624"
+         id="path37351"
+         style="stroke-width:2.81056" />
+      <path
+         fill="#ffffff"
+         d="M -583.77338,1742.1624"
+         id="path37348"
+         style="stroke-width:2.81056" />
+    </g>
+  </g>
+</svg>

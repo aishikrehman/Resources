@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="231.51584mm"
+   height="262.56427mm"
+   viewBox="0 0 231.51584 262.56427"
+   version="1.1"
+   id="svg48176"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="bs5-green.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview48178"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.3817305"
+     inkscape:cx="544.88703"
+     inkscape:cy="775.41616"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs48173">
+    <linearGradient
+       id="bs-logo-a-8"
+       x1="76.079002"
+       x2="523.47998"
+       y1="10.798"
+       y2="365.94501"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1122781,0,0,2.1122781,2192.298,-151.08087)">
+      <stop
+         stop-color="#9013fe"
+         id="stop474-3"
+         style="stop-color:#1e8b5a;stop-opacity:1" />
+      <stop
+         offset="1"
+         stop-color="#6610f2"
+         id="stop476-9"
+         style="stop-color:#006d5a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="bs-logo-b-0"
+       x1="193.508"
+       x2="293.51401"
+       y1="109.74"
+       y2="278.87201"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff"
+         id="stop479-3" />
+      <stop
+         offset="1"
+         stop-color="#f1e5fc"
+         id="stop481-5" />
+    </linearGradient>
+    <filter
+       id="bs-logo-c-7"
+       width="197"
+       height="249"
+       x="161.901"
+       y="83.457001"
+       color-interpolation-filters="sRGB"
+       filterUnits="userSpaceOnUse">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood484-1" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix486-2" />
+      <feOffset
+         dy="4"
+         id="feOffset488-4" />
+      <feGaussianBlur
+         stdDeviation="8"
+         id="feGaussianBlur490-3" />
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+         id="feColorMatrix492-6" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow"
+         id="feBlend494-7"
+         mode="normal" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect1_dropShadow"
+         result="shape"
+         id="feBlend496-0"
+         mode="normal" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(61.001791,-117.8929)">
+    <g
+       id="g47896"
+       inkscape:export-filename="C:\Users\User\Downloads\bootstrap-green.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="matrix(0.23695766,0,0,0.23695766,-595.2778,-218.72444)">
+      <g
+         id="g9968-8"
+         inkscape:export-filename="C:\Users\User\Downloads\bootstrap.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="translate(8.6154111,1692.3776)">
+        <path
+           fill="url(#bs-logo-a)"
+           d="m 2311.6016,-38.454202 c -2.0405,-58.594594 43.6122,-112.626668 105.3203,-112.626668 h 632.3168 c 61.7081,0 107.3607,54.032074 105.3203,112.626668 -1.9602,56.285875 0.5851,129.19749 18.9344,188.647562 18.4085,59.63383 49.4506,97.32743 100.291,102.17089 v 54.91923 c -50.8404,4.84345 -81.8825,42.53705 -100.291,102.17089 -18.3493,59.45007 -20.8946,132.36168 -18.9344,188.64967 2.0404,58.59248 -43.6122,112.62455 -105.3203,112.62455 h -632.3168 c -61.7081,0 -107.3608,-54.03207 -105.3182,-112.62455 1.9581,-56.28799 -0.5872,-129.1996 -18.9387,-188.64967 -18.4064,-59.63384 -49.5245,-97.32744 -100.367,-102.17089 v -54.91923 c 50.8404,-4.84346 81.9606,-42.53706 100.367,-102.17089 18.3515,-59.450072 20.8968,-132.361687 18.9366,-188.647562 z"
+           id="path501-1"
+           style="fill:url(#bs-logo-a-8);stroke-width:2.11228" />
+        <path
+           fill="url(#bs-logo-b)"
+           filter="url(#bs-logo-c)"
+           stroke="#ffffff"
+           d="m 267.103,312.457 c 47.297,0 75.798,-23.158 75.798,-61.355 0,-28.873 -20.336,-49.776 -50.532,-53.085 v -1.203 c 22.185,-3.609 39.594,-24.211 39.594,-47.219 0,-32.783 -25.882,-54.138 -65.322,-54.138 h -88.74 v 217 z m -54.692,-189.48 h 45.911 c 24.958,0 39.131,11.128 39.131,31.279 0,21.505 -16.484,33.535 -46.372,33.535 h -38.67 z m 0,161.961 v -71.431 h 45.602 c 32.661,0 49.608,12.03 49.608,35.49 0,23.459 -16.484,35.941 -47.605,35.941 z"
+           id="path503-0"
+           style="fill:url(#bs-logo-b-0);filter:url(#bs-logo-c-7)"
+           transform="matrix(2.1122781,0,0,2.1122781,2192.298,-151.08087)" />
+      </g>
+    </g>
+  </g>
+</svg>
