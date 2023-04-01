@@ -1,0 +1,17 @@
+{% capture words %}
+{{ content | number_of_words | minus: 180 }}
+{% endcapture %}
+{% unless words contains '-' %}
+{% assign minutes = words | plus: 180 | divided_by: 180 %}
+{% assign hours = minutes | divided_by: 60 %}
+{% assign remaining_minutes = minutes | modulo: 60 %}
+{% if hours > 0 %}
+<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="timeRequired">
+  {{ hours }}H{{ remaining_minutes }}M
+</time>
+{% else %}
+<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="timeRequired">
+  {{ remaining_minutes }}M
+</time>
+{% endif %}
+{% endunless %}
