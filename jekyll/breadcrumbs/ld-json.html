@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://example.com/"
+        }
+        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+        {% for crumb in crumbs offset: 1 %}
+          {% assign crumb_limit = forloop.index | plus: 1 %}
+          {% if forloop.last %}
+            ,{
+              "@type": "ListItem",
+              "position": {{ forloop.index | plus: 1 }},
+              "name": "{{ page.title }}",
+              "item": "{{ site.url }}{{ page.url }}"
+            }
+          {% else %}
+            ,{
+              "@type": "ListItem",
+              "position": {{ forloop.index | plus: 1 }},
+              "name": "{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}",
+              "item": "{% for n in (1..crumb_limit) %}/{{ crumbs[n] }}{% endfor %}"
+            }
+          {% endif %}
+        {% endfor %}
+      ]
+    }
+    </script> 
